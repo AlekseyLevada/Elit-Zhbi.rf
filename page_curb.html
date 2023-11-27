@@ -1,0 +1,1869 @@
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+  rel="stylesheet">
+<link href="/assets/custom_assets/swiper.min.css" rel="stylesheet" />
+<link href="/assets/custom_assets/megasite_slider.min.css" rel="stylesheet" />
+<style type="text/css">
+  /* Start reset */
+
+  .company-page-content .cpc-text-wrapper ._customer-adv ._customer-grid__item-logo img {
+    max-width: initial;
+  }
+
+  .company-content ._customer-adv ._customer-grid__item-logo img {
+    max-width: initial;
+  }
+
+  .company-content ._customer-feedback__logo img {
+    max-width: initial;
+  }
+
+  .modern-skin .company-content {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  .company-page-content .cpc-text-wrapper iframe {
+    max-width: initial;
+    max-height: initial;
+  }
+
+  .tmpl-company-content {
+    background-color: transparent;
+  }
+
+  .company-content {
+    padding: 0px;
+    line-height: inherit;
+  }
+
+  .company-content__column-second-wrapper {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0px;
+  }
+
+  .modern-skin .company-header:not(.company-about__header):not(.company-header__products) {
+    margin: 0 !important;
+  }
+
+  .breadcrumbs-slider__container {
+    display: none;
+  }
+
+  ._customer-visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+
+  .company-header__content {
+    display: block;
+  }
+
+  .company-page-content {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .cpc-header {
+    display: none;
+  }
+
+  .cp-text-wrapper {
+    margin: 0;
+  }
+
+  ._customer-hash span {
+    display: block;
+  }
+
+  ._customer-hash ul,
+  ._customer-hash ol,
+  ._customer-hash li {
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  ._customer-hash * {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+  }
+
+
+  /* End reset */
+
+  /* Main Styles*/
+
+  ._customer-curb {
+    background: #fff;
+  }
+
+  ._customer-intro__container {
+    max-width: 1228px;
+    margin: 0 auto;
+    padding: 70px 10px 60px;
+    position: relative;
+  }
+
+  ._customer-intro__container::before {
+    content: "";
+    position: absolute;
+    top: 235px;
+    right: 10px;
+    background: url(/system/ckeditor_assets/pictures/468142/content_intro_logo.png) no-repeat center/cover;
+    width: 590px;
+    height: 530px;
+  }
+
+  ._customer-title h2 {
+    font: 800 44px "Montserrat", sans-serif;
+    text-transform: uppercase;
+  }
+
+  ._customer-intro__title {
+    margin-bottom: 30px;
+  }
+
+  ._customer-intro__info {
+    margin-bottom: 10px;
+  }
+
+  ._customer-intro__info span {
+    font: 400 16px/22px "Montserrat", sans-serif;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+
+  ._customer-intro__info span:last-of-type {
+    margin-bottom: 0 !important;
+  }
+
+  ._customer-intro__text {
+    max-width: 590px;
+  }
+
+  ._customer-intro__text ._customer-intro__info {
+    margin-bottom: 35px;
+  }
+
+  ._customer-intro__text:last-of-type {
+    margin-bottom: 0 !important;
+  }
+
+  ._customer-intro__template {
+    margin-bottom: 34px;
+    background-color: #006c83;
+    border-radius: 30px;
+  }
+
+  ._customer-intro__template-container {
+    padding: 36px 40px;
+  }
+
+  ._customer-intro__template-title {
+    margin-bottom: 12px;
+  }
+
+  ._customer-intro__template-title h2 {
+    font: 600 20px/24px "Montserrat", sans-serif;
+    color: #fff;
+  }
+
+  ._customer-intro__template-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1.55fr 1fr;
+    grid-template-columns: 1.55fr 1fr;
+  }
+
+  ._customer-intro__template-list--1 span {
+    position: relative;
+    padding-left: 25px;
+    font: 400 16px/22px "Montserrat", sans-serif;
+    color: #fff;
+  }
+
+  ._customer-intro__template-list--1 span:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 18px;
+    height: 9px;
+    background: url(/system/ckeditor_assets/pictures/468143/content_list_marker.png) no-repeat center/cover;
+  }
+
+  ._customer-intro__template-list--2 span {
+    position: relative;
+    padding-left: 25px;
+    font: 400 16px/22px "Montserrat", sans-serif;
+    color: #fff;
+  }
+
+  ._customer-intro__template-list--2 span:before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 18px;
+    height: 9px;
+    background: url(/system/ckeditor_assets/pictures/468143/content_list_marker.png) no-repeat center/cover;
+  }
+
+  ._customer-products {
+    background: #efefef;
+  }
+
+  ._customer-products__container {
+    margin: 0 auto;
+    max-width: 1228px;
+    padding: 100px 10px 80px;
+  }
+
+  ._customer-table {
+    margin-bottom: 40px;
+  }
+
+  ._customer-table__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 26px 1fr 26px 1fr 26px 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+  }
+
+  ._customer-table__item {
+    background: #fff;
+    overflow: hidden;
+    border-radius: 30px;
+  }
+
+  ._customer-table__item:hover {
+    -webkit-box-shadow: 0 0 13px 2px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 0 13px 2px rgba(0, 0, 0, 0.07);
+  }
+
+  ._customer-table__item-container {
+    padding: 5px 12px 19px;
+  }
+
+  ._customer-table__item-logo {
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 15px;
+  }
+
+  ._customer-table__item-title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  ._customer-table__item-title h2 {
+    font: 500 16px/22px "Montserrat", sans-serif;
+    text-align: center;
+  }
+
+  ._customer-table__item-price {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  ._customer-table__item-price span {
+    font: 700 16px/23px "Montserrat", sans-serif;
+    text-align: center;
+  }
+
+  ._customer-table__item-btn-wrapper {
+    padding: 0 9px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+  }
+
+  ._customer-table__item-btn-order {
+    cursor: pointer !important;
+    width: 100% !important;
+    max-width: 175px !important;
+    height: 56px !important;
+    border: 2px solid #038F7A !important;
+    outline: none !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    margin: 0 !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    padding: 10px !important;
+    border-radius: 28px !important;
+    font: 600 16px/23px "Montserrat", sans-serif !important;
+    text-transform: uppercase !important;
+    color: #038F7A !important;
+  }
+
+  ._customer-table__item-btn-order:hover {
+    background: -o-linear-gradient(left, #00836f 0%, #00836f 2%, #0cb198 99%, #0cb198 100%) !important;
+    background: -webkit-gradient(linear, left top, right top, from(#00836f), color-stop(2%, #00836f), color-stop(99%, #0cb198), to(#0cb198)) !important;
+    background: linear-gradient(to right, #00836f 0%, #00836f 2%, #0cb198 99%, #0cb198 100%) !important;
+    color: #fff !important;
+    border: none !important;
+  }
+
+  ._customer-table__item-btn-cart-order {
+    cursor: pointer !important;
+    width: 100% !important;
+    max-width: 56px !important;
+    margin: 0 !important;
+    height: 56px !important;
+    border-radius: 50% !important;
+    min-width: 0 !important;
+    padding: 0 !important;
+  }
+
+  ._customer-table__item-btn-wrapper .apress-button:hover {
+    background: transparent;
+  }
+
+  ._customer-table__item-btn-cart-order img:nth-of-type(2) {
+    display: none !important;
+  }
+
+  ._customer-table__item-btn-cart-order:hover img:nth-of-type(2) {
+    display: block !important;
+  }
+
+  ._customer-table__item-btn-cart-order:hover img:nth-of-type(1) {
+    display: none !important;
+  }
+
+  ._customer-prod-swiper {
+    width: 100%;
+    overflow: hidden;
+    display: none !important;
+    margin-bottom: 15px;
+  }
+
+  ._customer-prod-swiper ._customer-table__item-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  ._customer-prod-swiper ._customer-table__item-btn-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  ._customer-prod-swiper__pagination {
+    display: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+
+  .swiper-pagination-clickable .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #919191;
+    opacity: 1;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .swiper-pagination-clickable .swiper-pagination-bullet-active {
+    width: 36px;
+    background: #0cb097;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  ._customer-prod__catalog-btn-link {
+    width: 100%;
+    text-decoration: none;
+  }
+
+  ._customer-prod__catalog-btn {
+    cursor: pointer;
+    border: 2px solid #038F7A;
+    outline: none;
+    width: 100%;
+    height: 56px;
+    border-radius: 28px;
+    gap: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px;
+    color: #038F7A;
+    text-transform: uppercase;
+    font: 600 16px/23px "Montserrat", sans-serif;
+  }
+
+  ._customer-prod__catalog-btn:hover {
+    border: none;
+    color: #fff;
+    background: -o-linear-gradient(left, #00836f 0%, #0cb198 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#00836f), to(#0cb198));
+    background: linear-gradient(90deg, #00836f 0%, #0cb198 100%);
+  }
+
+  ._customer-prod__catalog-btn:hover img {
+    -webkit-filter: contrast(0%) brightness(10);
+    filter: contrast(0%) brightness(10);
+  }
+
+  ._customer-adv__container {
+    margin: 0 auto;
+    max-width: 1228px;
+    padding: 90px 10px 58px;
+  }
+
+  ._customer-subtitle {
+    margin-bottom: 32px;
+  }
+
+  ._customer-subtitle h2 {
+    font: 800 34px "Montserrat", sans-serif;
+  }
+
+  ._customer-grid__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 27px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 27px;
+    -webkit-column-gap: 27px;
+    column-gap: 27px;
+    row-gap: 20px;
+  }
+
+  ._customer-grid__item {
+    background-color: #006c83;
+    border-radius: 30px;
+    height: 118px;
+  }
+
+  ._customer-grid__item-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 18px;
+    padding: 27px 20px 20px;
+    height: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  ._customer-grid__item-text span {
+    font: 500 16px/22px "Montserrat", sans-serif;
+    color: #fff;
+  }
+
+  ._customer-grid__item--3 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+  }
+
+  ._customer-adv-swiper {
+    overflow: hidden;
+    display: none !important;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  ._customer-adv-swiper ._customer-grid__item {
+    width: 100%;
+    height: 170px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  ._customer-adv-swiper ._customer-grid__item-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  ._customer-adv-swiper ._customer-grid__item-text {
+    text-align: center;
+  }
+
+  ._customer-adv-swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  ._customer-adv-swiper__pagination {
+    display: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  ._customer-feedback__container {
+    margin: 0 auto;
+    max-width: 1228px;
+    padding: 30px 10px 92px;
+  }
+
+  ._customer-feedback__title {
+    margin-bottom: 25px;
+  }
+
+  ._customer-feedback__title h2 {
+    letter-spacing: -0.01em;
+  }
+
+  ._customer-feedback__subtitle {
+    margin-bottom: 35px;
+  }
+
+  ._customer-feedback__subtitle h2 {
+    font: 600 18px/24px "Montserrat", sans-serif;
+  }
+
+  ._customer-feedback__inner-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  ._customer-form__inputs {
+    margin-bottom: 10px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 25px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    -moz-column-gap: 25px;
+    -webkit-column-gap: 25px;
+    column-gap: 25px;
+  }
+
+  ._customer-form__input {
+    border: 1px solid #d5f1ff;
+    border-radius: 28px;
+    width: 100%;
+    max-width: 282px;
+    height: 56px;
+    padding: 15px 17px;
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__textarea {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    border: 1px solid #d5f1ff;
+    border-radius: 28px;
+    width: 100%;
+    max-width: 281px;
+    height: 188px;
+    padding: 17px 15px;
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-moz-placeholder,
+  ._customer-form__textarea::-moz-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-moz-placeholder,
+  ._customer-form__textarea::-moz-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-moz-placeholder,
+  ._customer-form__textarea::-moz-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-webkit-input-placeholder,
+  ._customer-form__textarea::-webkit-input-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input:-ms-input-placeholder,
+  ._customer-form__textarea:-ms-input-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-ms-input-placeholder,
+  ._customer-form__textarea::-ms-input-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-webkit-input-placeholder,
+  ._customer-form__textarea::-webkit-input-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-moz-placeholder,
+  ._customer-form__textarea::-moz-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input:-ms-input-placeholder,
+  ._customer-form__textarea:-ms-input-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-ms-input-placeholder,
+  ._customer-form__textarea::-ms-input-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::placeholder,
+  ._customer-form__textarea::placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 35px;
+  }
+
+  ._customer-form__btn--file {
+    cursor: pointer !important;
+    outline: none !important;
+    width: 100% !important;
+    max-width: 282px !important;
+    height: 56px !important;
+    border-radius: 28px !important;
+    border: 2px solid #038F7A !important;
+    border-image-slice: 1 !important;
+    background: transparent;
+    font: 600 16px/23px "Montserrat", sans-serif !important;
+    text-transform: uppercase !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    padding: 10px !important;
+    gap: 10px !important;
+    color: #038F7A !important;
+  }
+
+  ._customer-form__btn--file:hover {
+    background: -o-linear-gradient(left, #00836f 0%, #0cb198 100%) !important;
+    background: -webkit-gradient(linear, left top, right top, from(#00836f), to(#0cb198)) !important;
+    background: linear-gradient(90deg, #00836f 0%, #0cb198 100%) !important;
+    color: #fff !important;
+    border: none !important;
+    outline: none !important;
+  }
+
+  ._customer-form__btn--file:hover img {
+    -webkit-filter: contrast(0%) brightness(10) !important;
+    filter: contrast(0%) brightness(10) !important;
+  }
+
+  ._customer-form__btn--submit {
+    cursor: pointer !important;
+    outline: none !important;
+    border: none !important;
+    width: 100% !important;
+    max-width: 282px !important;
+    height: 56px !important;
+    border-radius: 28px !important;
+    border-image-slice: 1 !important;
+    background: -o-linear-gradient(left, #00836f 0%, #0cb198 100%) !important;
+    background: -webkit-gradient(linear, left top, right top, from(#00836f), to(#0cb198)) !important;
+    background: linear-gradient(90deg, #00836f 0%, #0cb198 100%) !important;
+    font: 600 16px/23px "Montserrat", sans-serif !important;
+    text-transform: uppercase !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    padding: 10px !important;
+    color: #fff !important;
+  }
+
+  ._customer-form__btn--submit:hover {
+    background: transparent !important;
+    color: #038F7A !important;
+    border: 2px solid #038F7A !important;
+  }
+
+  ._customer-form__btn--submit:hover img {
+    -webkit-filter: contrast(0%) brightness(10) !important;
+    filter: contrast(0%) brightness(10) !important;
+  }
+
+  ._customer-form__terms {
+    max-width: 90%;
+  }
+
+  ._customer-form__terms span {
+    font: 500 14px/20px "Montserrat", sans-serif;
+  }
+
+  ._customer-form__terms--link {
+    font: 500 14px/20px "Montserrat", sans-serif;
+    color: #038F7A !important;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  ._customer-form__terms--link:hover {
+    text-decoration: none;
+  }
+
+  ._customer-form__buttons button:disabled {
+    opacity: 0.7;
+  }
+
+  ._customer-form__btn--file:disabled:hover,
+  ._customer-form__btn--submit:disabled:hover {
+    cursor: not-allowed !important;
+  }
+
+  @media(max-width:1250px) {
+    ._customer-intro__container::before {
+      -webkit-transform: scale(.62);
+      -ms-transform: scale(.62);
+      transform: scale(.62);
+      top: 150px;
+      right: -100px;
+    }
+
+    ._customer-table__item-btn-order {
+      min-width: 0px !important;
+    }
+
+    ._customer-subtitle h2 {
+      font-size: 33px;
+    }
+
+    ._customer-feedback__inner-container {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .company-content ._customer-feedback__logo img {
+      max-width: 100%;
+    }
+  }
+
+  @media(max-width:978px) {
+    ._customer-intro__container::before {
+      display: none;
+    }
+
+    ._customer-intro__text {
+      max-width: 100%;
+    }
+
+    ._customer-title h2 {
+      font-size: 28px;
+      line-height: 30px;
+    }
+
+    ._customer-intro__template-title h2 {
+      font-size: 18px;
+    }
+
+    ._customer-subtitle h2 {
+      font-size: 24px;
+      line-height: 30px;
+      text-align: center;
+    }
+
+    ._customer-intro__container,
+    ._customer-products__container,
+    ._customer-adv__container,
+    ._customer-feedback__container {
+      padding: 20px 10px;
+    }
+
+    ._customer-title,
+    ._customer-intro__text ._customer-intro__info,
+    ._customer-intro__template,
+    ._customer-subtitle,
+    ._customer-feedback__subtitle,
+    ._customer-form__buttons,
+    ._customer-table__item-title {
+      margin-bottom: 15px;
+    }
+
+    ._customer-intro__template-container {
+      padding: 20px;
+    }
+
+    ._customer-intro__template-list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+
+    ._customer-intro__template-title h2 {
+      text-align: center;
+    }
+
+    ._customer-table,
+    ._customer-adv__grid {
+      display: none;
+    }
+
+    ._customer-prod-swiper,
+    ._customer-adv-swiper {
+      display: block !important;
+    }
+
+    ._customer-prod-swiper__pagination,
+    ._customer-adv-swiper__pagination {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+
+    ._customer-table__item-btn-order {
+      max-width: 100% !important;
+    }
+
+    ._customer-adv-swiper ._customer-grid__item {
+      height: 195px;
+    }
+
+    ._customer-grid__item-container {
+      height: unset;
+    }
+
+    ._customer-feedback__title h2,
+    ._customer-feedback__subtitle h2 {
+      text-align: center;
+    }
+
+    ._customer-feedback__logo {
+      display: none;
+    }
+
+    ._customer-feedback__inner-container {
+      display: block;
+    }
+
+    ._customer-form__inputs {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+
+    ._customer-form__input,
+    ._customer-form__textarea {
+      max-width: 100%;
+    }
+
+    ._customer-table__item:hover {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    ._customer-form__textarea {
+      height: 60px;
+    }
+
+    ._customer-form__buttons {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    ._customer-form__terms {
+      max-width: 100%;
+      text-align: center;
+    }
+
+    ._customer-table__item-container {
+      padding: 15px;
+    }
+
+    ._customer-table__item-btn-wrapper {
+      padding: 0;
+    }
+  }
+
+  @media(max-width:767px) {
+    ._customer-grid__item-container {
+      padding: 20px;
+    }
+
+    ._customer-adv-swiper ._customer-grid__item {
+      height: 250px;
+    }
+  }
+
+  @media(max-width:480px) {
+    ._customer-title h2 {
+      text-align: center;
+    }
+
+    ._customer-intro__info span,
+    ._customer-intro__template-list--1 span,
+    ._customer-intro__template-list--2 span,
+    ._customer-table__item-title h2,
+    ._customer-table__item-price span,
+    ._customer-table__item-btn-order,
+    ._customer-prod__catalog-btn,
+    ._customer-grid__item-text span,
+    ._customer-form__btn--submit,
+    ._customer-form__btn--file {
+      font-size: 14px !important;
+      line-height: 20px !important;
+    }
+
+    ._customer-intro__template-title h2 {
+      font-size: 16px;
+    }
+
+    ._customer-table__item-btn-order,
+    ._customer-prod__catalog-btn,
+    ._customer-form__input,
+    ._customer-form__btn--file,
+    ._customer-form__btn--submit {
+      height: 40px !important;
+    }
+
+    ._customer-table__item-btn-cart-order {
+      max-width: 40px !important;
+    }
+
+    ._customer-table__item-btn-cart-order img {
+      width: 40px;
+      height: 40px;
+    }
+
+    ._customer-table__item-btn-cart-order {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+
+    ._customer-feedback__subtitle h2 {
+      font-size: 16px;
+    }
+
+    ._customer-form__buttons {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+
+    ._customer-form__btn--file,
+    ._customer-form__btn--submit {
+      max-width: 100% !important;
+    }
+
+    ._customer-form__terms span,
+    ._customer-form__terms--link {
+      font-size: 12px;
+      line-height: 18px;
+    }
+    ._customer-table__item-btn-cart-order {
+      height: 40px !important;
+    }
+  }
+
+  @media(max-width:360px) {
+
+    ._customer-intro__container,
+    ._customer-products__container,
+    ._customer-adv__container,
+    ._customer-feedback__container {
+      padding: 10px;
+    }
+
+    ._customer-title h2 {
+      font-size: 23px;
+    }
+
+    ._customer-subtitle h2 {
+      font-size: 20px;
+      line-height: 26px;
+    }
+
+    ._customer-adv-swiper ._customer-grid__item {
+      height: 265px;
+    }
+
+    ._customer-feedback__title h2 {
+      font-size: 22px;
+    }
+  }
+</style>
+<div class="_customer-hash">
+  <div class="_customer-hash__container">
+    <div class="_customer-curb">
+      <div class="_customer-curb__container">
+        <section class="_customer-intro">
+          <div class="_customer-intro__container">
+            <div class="_customer-title _customer-intro__title">
+              <h2>
+                Бордюрный камень
+              </h2>
+            </div>
+            <div class="_customer-intro__info">
+              <span>
+                Бордюр нужен для разделения тротуара и&nbsp;проезжей части улицы.
+                Но&nbsp;в&nbsp;ряде случаев специфика местности или&nbsp;система поверхностной
+                канализации требует от&nbsp;него особых характеристик: от&nbsp;нестандартной
+                геометрии, до&nbsp;отверстия для&nbsp;стока воды. Особый вид бортовых камней,
+                созданных для&nbsp;решения этих задач, называют спецбордюр.
+              </span>
+            </div>
+            <div class="_customer-intro__inner-container">
+              <div class="_customer-intro__text">
+                <div class="_customer-intro__info">
+                  <span>
+                    Различные виды спецбордюров в&nbsp;зависимости от&nbsp;их задачи различаются
+                    по&nbsp;форме, размеру, и&nbsp;сложности изготовления. Некоторые
+                    из&nbsp;наиболее распространённых производятся
+                    на&nbsp;конвейерной ленте. Другие, предназначенные для&nbsp;нестандартных
+                    ситуаций, производятся под&nbsp;заказ.
+                  </span>
+                  <span>
+                    Представленный материал имеет широкую номенклатуру, поэтому легко потеряться
+                    при&nbsp;выборе такой конструкции.
+                  </span>
+                </div>
+                <div class="_customer-intro__template">
+                  <div class="_customer-intro__template-container">
+                    <div class="_customer-intro__template-title">
+                      <h2>
+                        Основные виды данного элемента имеют следующее значение:
+                      </h2>
+                    </div>
+                    <div class="_customer-intro__template-list">
+                      <div class="_customer-intro__template-list--1">
+                        <span>
+                          магистральный бордюр;
+                        </span>
+                        <span>
+                          садовый бордюр;
+                        </span>
+                        <span>
+                          дорожный;
+                        </span>
+                      </div>
+                      <div class="_customer-intro__template-list--2">
+                        <span>
+                          тротуарный;
+                        </span>
+                        <span>
+                          газонный.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-intro__info">
+                  <span>
+                    Каждый обеспечивает грамотную организацию различных сооружений
+                    и&nbsp;построек. При&nbsp;этом бордюрный камень является прочным,
+                    морозоустойчивым и&nbsp;влагостойким. Такое изделие способно прослужить
+                    множество лет, при&nbsp;этом оно совершенно неприхотливо.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="_customer-products">
+          <div class="_customer-products__container">
+            <div class="_customer-table">
+              <div class="_customer-table__container">
+                <div class="_customer-table__item _customer-table__item--1">
+                  <div class="_customer-table__item-container">
+                    <div class="_customer-table__item-logo">
+                      <img src="/system/ckeditor_assets/pictures/468144/content_prod_icon-logo.png" alt=""
+                        loading="lazy">
+                    </div>
+                    <div class="_customer-table__item-title">
+                      <h2>
+                        Бордюр БР&nbsp;100.30.15
+                      </h2>
+                    </div>
+                    <div class="_customer-table__item-price">
+                      <span>
+                        435 руб./шт.
+                      </span>
+                    </div>
+                    <div class="_customer-table__item-btn-wrapper">
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_order_82037063'); return true;"
+                        class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;82037063&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product-title="Бордюр БР 100.30.15" data-qty-with-measure=""
+                        data-retail-price="435 руб./шт." data-type="product" data-wholesale-price="">Заказать</div>
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_82037063'); return true;"
+                        class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                        data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:82037063,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                        data-button-type="order_cart" data-company="99595434"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;82037063&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product="82037063" data-product-title="Бордюр БР 100.30.15" data-qty-with-measure=""
+                        data-retail-price="435 руб./шт." data-type="cart" data-wholesale-price=""><img
+                          src="/system/ckeditor_assets/pictures/459116/content_cart.png" alt="" loading="lazy"><img
+                          src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-table__item _customer-table__item--2">
+                  <div class="_customer-table__item-container">
+                    <div class="_customer-table__item-logo">
+                      <img src="/system/ckeditor_assets/pictures/468144/content_prod_icon-logo.png" alt=""
+                        loading="lazy">
+                    </div>
+                    <div class="_customer-table__item-title">
+                      <h2>
+                        Бордюр БР&nbsp;100.30.18
+                      </h2>
+                    </div>
+                    <div class="_customer-table__item-price">
+                      <span>
+                        495 руб./шт.
+                      </span>
+                    </div>
+                    <div class="_customer-table__item-btn-wrapper">
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_order_82037067'); return true;"
+                        class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;82037067&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product-title="Бордюр БР 100.30.18" data-qty-with-measure=""
+                        data-retail-price="495 руб./шт." data-type="product" data-wholesale-price="">Заказать</div>
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_82037067'); return true;"
+                        class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                        data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:82037067,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                        data-button-type="order_cart" data-company="99595434"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;82037067&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product="82037067" data-product-title="Бордюр БР 100.30.18" data-qty-with-measure=""
+                        data-retail-price="495 руб./шт." data-type="cart" data-wholesale-price=""><img
+                          src="/system/ckeditor_assets/pictures/459116/content_cart.png" alt="" loading="lazy"><img
+                          src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-table__item _customer-table__item--3">
+                  <div class="_customer-table__item-container">
+                    <div class="_customer-table__item-logo">
+                      <img src="/system/ckeditor_assets/pictures/468144/content_prod_icon-logo.png" alt=""
+                        loading="lazy">
+                    </div>
+                    <div class="_customer-table__item-title">
+                      <h2>
+                        Бордюр БР&nbsp;100.45.18
+                      </h2>
+                    </div>
+                    <div class="_customer-table__item-price">
+                      <span>
+                        1350 руб./шт.
+                      </span>
+                    </div>
+                    <div class="_customer-table__item-btn-wrapper">
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_order_82037075'); return true;"
+                        class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;82037075&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product-title="Бордюр БР 100.45.18" data-qty-with-measure=""
+                        data-retail-price="от 1 350 руб./шт." data-type="product" data-wholesale-price="">Заказать</div>
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_82037075'); return true;"
+                        class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                        data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:82037075,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                        data-button-type="order_cart" data-company="99595434"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;82037075&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product="82037075" data-product-title="Бордюр БР 100.45.18" data-qty-with-measure=""
+                        data-retail-price="от 1 350 руб./шт." data-type="cart" data-wholesale-price=""><img
+                          src="/system/ckeditor_assets/pictures/459116/content_cart.png" alt="" loading="lazy"><img
+                          src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-table__item _customer-table__item--4">
+                  <div class="_customer-table__item-container">
+                    <div class="_customer-table__item-logo">
+                      <img src="/system/ckeditor_assets/pictures/468144/content_prod_icon-logo.png" alt=""
+                        loading="lazy">
+                    </div>
+                    <div class="_customer-table__item-title">
+                      <h2>
+                        Бордюр БР&nbsp;150.30.15
+                      </h2>
+                    </div>
+                    <div class="_customer-table__item-price">
+                      <span>
+                        265 руб./шт.
+                      </span>
+                    </div>
+                    <div class="_customer-table__item-btn-wrapper">
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_order_82037079'); return true;"
+                        class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;82037079&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product-title="Бордюр БР 150.30.15" data-qty-with-measure=""
+                        data-retail-price="265 руб./шт." data-type="product" data-wholesale-price="">Заказать</div>
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_82037079'); return true;"
+                        class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                        data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:82037079,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                        data-button-type="order_cart" data-company="99595434"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;82037079&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product="82037079" data-product-title="Бордюр БР 150.30.15" data-qty-with-measure=""
+                        data-retail-price="265 руб./шт." data-type="cart" data-wholesale-price=""><img
+                          src="/system/ckeditor_assets/pictures/459116/content_cart.png" alt="" loading="lazy"><img
+                          src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="_customer-prod-swiper swiper">
+              <div class="_customer-prod-swiper-container swiper-wrapper">
+                <div class="_customer-prod-swiper-slide swiper-slide">
+                  <div class="_customer-table__item _customer-table__item--1">
+                    <div class="_customer-table__item-container">
+                      <div class="_customer-table__item-logo">
+                        <img src="/system/ckeditor_assets/pictures/468144/content_prod_icon-logo.png" alt=""
+                          loading="lazy">
+                      </div>
+                      <div class="_customer-table__item-title">
+                        <h2>
+                          Бордюр БР&nbsp;100.30.15
+                        </h2>
+                      </div>
+                      <div class="_customer-table__item-price">
+                        <span>
+                          435 руб./шт.
+                        </span>
+                      </div>
+                      <div class="_customer-table__item-btn-wrapper">
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_order_82037063'); return true;"
+                          class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;82037063&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product-title="Бордюр БР 100.30.15" data-qty-with-measure=""
+                          data-retail-price="435 руб./шт." data-type="product" data-wholesale-price="">Заказать</div>
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_82037063'); return true;"
+                          class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                          data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:82037063,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                          data-button-type="order_cart" data-company="99595434"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;82037063&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product="82037063" data-product-title="Бордюр БР 100.30.15" data-qty-with-measure=""
+                          data-retail-price="435 руб./шт." data-type="cart" data-wholesale-price=""><img
+                            src="/system/ckeditor_assets/pictures/459116/content_cart.png" alt="" loading="lazy"><img
+                            src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-prod-swiper-slide swiper-slide">
+                  <div class="_customer-table__item _customer-table__item--2">
+                    <div class="_customer-table__item-container">
+                      <div class="_customer-table__item-logo">
+                        <img src="/system/ckeditor_assets/pictures/468144/content_prod_icon-logo.png" alt=""
+                          loading="lazy">
+                      </div>
+                      <div class="_customer-table__item-title">
+                        <h2>
+                          Бордюр БР&nbsp;100.30.18
+                        </h2>
+                      </div>
+                      <div class="_customer-table__item-price">
+                        <span>
+                          495 руб./шт.
+                        </span>
+                      </div>
+                      <div class="_customer-table__item-btn-wrapper">
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_order_82037067'); return true;"
+                          class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;82037067&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product-title="Бордюр БР 100.30.18" data-qty-with-measure=""
+                          data-retail-price="495 руб./шт." data-type="product" data-wholesale-price="">Заказать</div>
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_82037067'); return true;"
+                          class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                          data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:82037067,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                          data-button-type="order_cart" data-company="99595434"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;82037067&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product="82037067" data-product-title="Бордюр БР 100.30.18" data-qty-with-measure=""
+                          data-retail-price="495 руб./шт." data-type="cart" data-wholesale-price=""><img
+                            src="/system/ckeditor_assets/pictures/459116/content_cart.png" alt="" loading="lazy"><img
+                            src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-prod-swiper-slide swiper-slide">
+                  <div class="_customer-table__item _customer-table__item--3">
+                    <div class="_customer-table__item-container">
+                      <div class="_customer-table__item-logo">
+                        <img src="/system/ckeditor_assets/pictures/468144/content_prod_icon-logo.png" alt=""
+                          loading="lazy">
+                      </div>
+                      <div class="_customer-table__item-title">
+                        <h2>
+                          Бордюр БР&nbsp;100.45.18
+                        </h2>
+                      </div>
+                      <div class="_customer-table__item-price">
+                        <span>
+                          1350 руб./шт.
+                        </span>
+                      </div>
+                      <div class="_customer-table__item-btn-wrapper">
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_order_82037075'); return true;"
+                          class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;82037075&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product-title="Бордюр БР 100.45.18" data-qty-with-measure=""
+                          data-retail-price="от 1 350 руб./шт." data-type="product" data-wholesale-price="">Заказать
+                        </div>
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_82037075'); return true;"
+                          class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                          data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:82037075,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                          data-button-type="order_cart" data-company="99595434"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;82037075&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product="82037075" data-product-title="Бордюр БР 100.45.18" data-qty-with-measure=""
+                          data-retail-price="от 1 350 руб./шт." data-type="cart" data-wholesale-price=""><img
+                            src="/system/ckeditor_assets/pictures/459116/content_cart.png" alt="" loading="lazy"><img
+                            src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-prod-swiper-slide swiper-slide">
+                  <div class="_customer-table__item _customer-table__item--4">
+                    <div class="_customer-table__item-container">
+                      <div class="_customer-table__item-logo">
+                        <img src="/system/ckeditor_assets/pictures/468144/content_prod_icon-logo.png" alt=""
+                          loading="lazy">
+                      </div>
+                      <div class="_customer-table__item-title">
+                        <h2>
+                          Бордюр БР&nbsp;150.30.15
+                        </h2>
+                      </div>
+                      <div class="_customer-table__item-price">
+                        <span>
+                          265 руб./шт.
+                        </span>
+                      </div>
+                      <div class="_customer-table__item-btn-wrapper">
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_order_82037079'); return true;"
+                          class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;82037079&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product-title="Бордюр БР 150.30.15" data-qty-with-measure=""
+                          data-retail-price="265 руб./шт." data-type="product" data-wholesale-price="">Заказать</div>
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_82037079'); return true;"
+                          class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                          data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:82037079,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                          data-button-type="order_cart" data-company="99595434"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/794/994_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;82037079&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product="82037079" data-product-title="Бордюр БР 150.30.15" data-qty-with-measure=""
+                          data-retail-price="265 руб./шт." data-type="cart" data-wholesale-price=""><img
+                            src="/system/ckeditor_assets/pictures/459116/content_cart.png" alt="" loading="lazy"><img
+                            src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="_customer-prod-swiper__pagination"></div>
+            <a onclick="yaCounter45589971.reachGoal('megasite_page_link_catalog_4778213'); return true;" target="_blank"
+              class="_customer-prod__catalog-btn-link" href="/catalog/k-4778213-bordyurny_kamen">
+              <button class="_customer-prod__catalog-btn">
+                Смотреть все <img src="/system/ckeditor_assets/pictures/465060/content_category_btn-arrow.png" alt=""
+                  loading="lazy">
+              </button>
+            </a>
+          </div>
+        </section>
+        <section class="_customer-adv">
+          <div class="_customer-adv__container">
+            <div class="_customer-subtitle _customer-adv__subtitle">
+              <h2>
+                ООО&nbsp;"ЭЛИТ-ЖБИ" предлагает бордюр и&nbsp;спецбордюр частным лицам
+                и&nbsp;предприятиям на&nbsp;территории России:
+              </h2>
+            </div>
+            <div class="_customer-adv__grid _customer-grid">
+              <div class="_customer-grid__container">
+                <div class="_customer-grid__item _customer-grid__item--1">
+                  <div class="_customer-grid__item-container">
+                    <div class="_customer-grid__item-logo">
+                      <img src="/system/ckeditor_assets/pictures/468145/content_adv_icon-1.png" alt="" loading="lazy">
+                    </div>
+                    <div class="_customer-grid__item-text">
+                      <span>
+                        У&nbsp;нас всегда в&nbsp;наличии большие партии
+                        бордюрного&nbsp;камня
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-grid__item _customer-grid__item--2">
+                  <div class="_customer-grid__item-container">
+                    <div class="_customer-grid__item-logo">
+                      <img src="/system/ckeditor_assets/pictures/468146/content_adv_icon-2.png" alt="" loading="lazy">
+                    </div>
+                    <div class="_customer-grid__item-text">
+                      <span>
+                        Качественная продукция, произведенная
+                        в&nbsp;соответствии с&nbsp;ГОСТом, имеет соответствующие паспорта
+                        и&nbsp;сертификаты
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-grid__item _customer-grid__item--3">
+                  <div class="_customer-grid__item-container">
+                    <div class="_customer-grid__item-logo">
+                      <img src="/system/ckeditor_assets/pictures/468147/content_adv_icon-3.png" alt="" loading="lazy">
+                    </div>
+                    <div class="_customer-grid__item-text">
+                      <span>
+                        Собственный автопарк для&nbsp;доставки до&nbsp;объекта. Если&nbsp;же
+                        объект расположен на&nbsp;дальнем расстоянии, наша компания
+                        отправляет продукцию посредством железнодорожного транспорта,
+                        обеспечивая ее сохранность и&nbsp;целостность;
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="_customer-adv-swiper swiper">
+              <div class="_customer-adv-swiper-container swiper-wrapper">
+                <div class="_customer-adv-swiper-slide swiper-slide">
+                  <div class="_customer-grid__item _customer-grid__item--1">
+                    <div class="_customer-grid__item-container">
+                      <div class="_customer-grid__item-logo">
+                        <img src="/system/ckeditor_assets/pictures/468145/content_adv_icon-1.png" alt="" loading="lazy">
+                      </div>
+                      <div class="_customer-grid__item-text">
+                        <span>
+                          У&nbsp;нас всегда в&nbsp;наличии большие партии
+                          бордюрного&nbsp;камня
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-adv-swiper-slide swiper-slide">
+                  <div class="_customer-grid__item _customer-grid__item--2">
+                    <div class="_customer-grid__item-container">
+                      <div class="_customer-grid__item-logo">
+                        <img src="/system/ckeditor_assets/pictures/468146/content_adv_icon-2.png" alt="" loading="lazy">
+                      </div>
+                      <div class="_customer-grid__item-text">
+                        <span>
+                          Качественная продукция, произведенная
+                          в&nbsp;соответствии с&nbsp;ГОСТом, имеет соответствующие
+                          паспорта
+                          и&nbsp;сертификаты
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-adv-swiper-slide swiper-slide">
+                  <div class="_customer-grid__item _customer-grid__item--3">
+                    <div class="_customer-grid__item-container">
+                      <div class="_customer-grid__item-logo">
+                        <img src="/system/ckeditor_assets/pictures/468147/content_adv_icon-3.png" alt="" loading="lazy">
+                      </div>
+                      <div class="_customer-grid__item-text">
+                        <span>
+                          Собственный автопарк для&nbsp;доставки до&nbsp;объекта.
+                          Если&nbsp;же
+                          объект расположен на&nbsp;дальнем расстоянии, наша компания
+                          отправляет продукцию посредством железнодорожного транспорта,
+                          обеспечивая ее сохранность и&nbsp;целостность;
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="_customer-adv-swiper__pagination"></div>
+          </div>
+        </section>
+        <secttion class="_customer-feedback">
+          <div class="_customer-feedback__container">
+            <div class="_customer-title _customer-feedback__title">
+              <h2>
+                Нужна консультация и&nbsp;помощь в&nbsp;подборе?
+              </h2>
+            </div>
+            <div class="_customer-feedback__subtitle">
+              <h2>
+                Наши специалисты готовы предоставить всю необходимую информацию и&nbsp;ответить
+                на&nbsp;ваши вопросы
+              </h2>
+            </div>
+            <div class="_customer-feedback__inner-container">
+              <div class="_customer-feedback__form">
+                <div class="_customer-form__inputs">
+                  <input class="_customer-form__input" id="_customerName" placeholder="Имя" required="" type="text" />
+                  <input class="_customer-form__input" id="_customerPhone" placeholder="Телефон" required=""
+                    type="tel" />
+                  <input class="_customer-form__input" id="_customerEmail" placeholder="Почта" required=""
+                    type="email" />
+                  <textarea class="_customer-form__textarea" id="_customerMessage" placeholder="Комментарий"></textarea>
+                </div>
+                <div class="_customer-form__buttons">
+                  <button
+                    class="_customer-form__btn _customer-form__btn--file ab-order js-apress-order-button js-get-order-form"
+                    data-company-contacts-url="/contacts" data-company-name="ЭЛИТ-ЖБИ"
+                    data-params='{"company_id":"99595434"}' data-type="message" id="_customerFile"
+                    onclick="yaCounter45589971.reachGoal('megasite_page_write_us'); return true;">
+                    <img src="/system/ckeditor_assets/pictures/465067/content_form-upload-icon.png" alt=""
+                      loading="lazy"> Прикрепить файл
+                  </button>
+                  <button
+                    class="_customer-form__btn _customer-form__btn--submit ab-order js-apress-order-button js-get-order-form"
+                    data-company-contacts-url="/contacts" data-company-name="ЭЛИТ-ЖБИ"
+                    data-params='{"company_id":"99595434"}' data-type="message" id="_customerSubmit"
+                    onclick="yaCounter45589971.reachGoal('megasite_page_write_us'); return true;">
+                    Отправить
+                  </button>
+                </div>
+                <div class="_customer-form__terms">
+                  <span>
+                    Нажимая "Отправить", вы даете согласие на обработку персональных данных в
+                    соответствии c
+                    <a class="_customer-form__terms--link" href="/confidential" target="_blank">
+                      политикой конфиденциальности
+                    </a>
+                    и&nbsp;принимаете условия
+                    <a class="_customer-form__terms--link" href="/terms" target="_blank">
+                      пользовательского соглашения </a>.
+                  </span>
+                </div>
+              </div>
+              <div class="_customer-feedback__logo">
+                <img src="/system/ckeditor_assets/pictures/465066/content_form_logo.png" alt="" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </secttion>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Скрытие заголовка -->
+<script async>
+  const companyHeader = document.querySelector('.company-header__content')
+  companyHeader.classList.add('_customer-visually-hidden')
+</script>
+
+<!-- Swiper -->
+
+<script src="/assets/custom_assets/swiper.min.js"></script>
+<script async>
+  const advSwiper = new Swiper("._customer-adv-swiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    speed: 800,
+    loop: true,
+    grabCursor: true,
+
+    autoplay: {
+      delay: 5000,
+    },
+
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      }
+    },
+
+    keyboard: {
+      enabled: true,
+    },
+
+    pagination: {
+      el: '._customer-adv-swiper__pagination',
+      clickable: true,
+    },
+  });
+</script>
+
+<script async>
+  const prodSwiper = new Swiper("._customer-prod-swiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    speed: 800,
+    loop: true,
+    grabCursor: true,
+
+    autoplay: {
+      delay: 5000,
+    },
+
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      580: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      }
+    },
+
+    keyboard: {
+      enabled: true,
+    },
+
+    pagination: {
+      el: '._customer-prod-swiper__pagination',
+      clickable: true,
+    },
+  });
+</script>
+
+<!-- Form -->
+<script src="/assets/custom_assets/imask.js"></script>
+<script async>
+  document.addEventListener("DOMContentLoaded", () => {
+
+    let setImask = (id) => {
+      let element = document.getElementById(id);
+      let maskOptions = {
+        mask: "+7 (000) 000-00-00",
+        lazy: false,
+      };
+      let mask = new IMask(element, maskOptions);
+    }
+
+    setImask("_customerPhone");
+
+    let _customerInputs = document.querySelectorAll("._customer-form__input");
+    setInterval(() => {
+      _customerInputs.forEach((item) => {
+        if (item.value === "" || item.value == "+7 (___) ___-__-__") {
+          item.style.outline = "2px solid #e32000";
+        }
+        if (item.value && item.value !== "+7 (___) ___-__-__") {
+          item.style.outline = "2px solid #56c56c";
+        }
+      });
+    }, 1000);
+
+    let _customerSubmitButton = document.getElementById("_customerSubmit");
+    let _customerFileButton = document.getElementById("_customerFile");
+    let _customerFinalMessage = "";
+
+    _customerSubmitButton.disabled = true;
+    _customerFileButton.disabled = true;
+
+
+    let _customerSendForm = () => {
+      if (_customerSubmitButton.disabled !== true) {
+        _customerFinalMessage = `Добрый день!\nМеня зовут ${document.getElementById("_customerName").value}\n${document.getElementById("_customerMessage").value}`;
+      }
+    }
+
+    let formValidate = () => {
+      _customerSubmitButton.disabled =
+        [...document.querySelectorAll("._customer-form__input:required")].filter((element) => element.value === "" || element.value === 0).length !== 0 ? true : false;
+      _customerFileButton.disabled = _customerSubmitButton.disabled == true ? true : false;
+    }
+
+    document.querySelectorAll("._customer-form__input:required").forEach((element) => {
+      element.addEventListener("change", () => formValidate());
+      element.addEventListener("mouseout", () => formValidate());
+    });
+
+    let openWidget = () => {
+      _customerSendForm();
+      setTimeout(() => {
+        document.querySelector("#order_messages_attributes_0_text").value = _customerFinalMessage;
+        document.querySelector(".js-order-customer-phone-field") === null
+          ? (document.querySelector("#order_messages_attributes_0_text").value += "\n" + "Телефон: " + document.getElementById("_customerPhone").value)
+          : (document.querySelector(".js-order-customer-phone-field").value = document.getElementById("_customerPhone").value);
+        document.querySelector(".js-input-email-auth") === null
+          ? (document.querySelector("#order_messages_attributes_0_text").value += "\n" + "Почта: " + document.getElementById("_customerEmail").value)
+          : (document.querySelector(".js-input-email-auth").value = document.getElementById("_customerEmail").value);
+      }, 1000);
+    }
+    _customerSubmitButton.addEventListener("click", (event) => openWidget());
+
+    _customerFileButton.addEventListener("click", (e) => {
+      openWidget();
+      setTimeout(() => {
+        document.getElementById("order_").click();
+      }, 1000);
+    });
+  });
+</script>

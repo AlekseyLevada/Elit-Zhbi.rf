@@ -1,0 +1,374 @@
+<style>
+	.fc-top {
+		padding: 0 !important;
+	}
+
+	.footer-container {
+		margin-top: 0 !important;
+	}
+
+	.footer-company .fcbul-item:last-child {
+		white-space: normal;
+	}
+</style>
+<style>
+	._customer-footer {
+		box-sizing: border-box;
+		padding: 60px 0;
+		background-color: #006c83;
+	}
+
+	._customer-footer * {
+		box-sizing: border-box;
+	}
+
+	._customer-footer__container {
+		max-width: 1227px;
+		margin: 0 auto;
+		padding: 0 10px;
+	}
+
+	._customer-footer__company {
+		max-width: max-content;
+		display: block;
+		text-decoration: none;
+		outline: 0;
+		white-space: nowrap;
+		color: #fff !important;
+		font-family: Montserrat, sans-serif;
+		font-size: 44px;
+		font-weight: 800;
+		line-height: 32px;
+		text-transform: uppercase;
+	}
+
+	._customer-footer__divider {
+		margin: 20px 0;
+		width: 100%;
+		height: 1px;
+		background-color: #d5f1ff;
+	}
+
+	._customer-footer__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	._customer-footer__menu {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	._customer-footer__menu-title {
+		color: #4bffe4;
+		font-family: Montserrat, sans-serif;
+		font-size: 18px;
+		font-weight: 800;
+		line-height: 18px;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+	}
+
+	._customer-footer__menu-item {
+		display: block;
+		text-decoration: none;
+		outline: 0;
+		white-space: nowrap;
+		color: #fff !important;
+		font-family: Montserrat, sans-serif;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	._customer-footer__menu-item:hover {
+		cursor: pointer;
+		text-decoration: underline;
+	}
+
+	._customer-footer__phone {
+		display: block;
+		text-decoration: none;
+		outline: 0;
+		padding-left: 25px;
+		white-space: nowrap;
+		background: url(/system/ckeditor_assets/pictures/458915/content_phone-icon.png) left center no-repeat;
+		color: #fff !important;
+		font-family: Montserrat, sans-serif;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 22px;
+	}
+
+	._customer-footer__phone:hover {
+		cursor: pointer;
+		text-decoration: underline;
+	}
+
+	._customer-footer__email {
+		margin-top: 10px;
+		display: block;
+		text-decoration: none;
+		outline: 0;
+		padding-left: 25px;
+		white-space: nowrap;
+		background: url(/system/ckeditor_assets/pictures/458914/content_mail-icon.png) left center no-repeat;
+		color: #fff !important;
+		font-family: Montserrat, sans-serif;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	._customer-footer__email:hover {
+		cursor: pointer;
+		text-decoration: underline;
+	}
+
+	._customer-footer__location {
+		margin-top: 23px;
+		padding-left: 25px;
+		white-space: nowrap;
+		background: url(/system/ckeditor_assets/pictures/458913/content_location-icon.png) left center no-repeat;
+		color: #fff !important;
+		font-family: Montserrat, sans-serif;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	._customer-footer__time {
+		margin-top: 42px;
+		padding-left: 25px;
+		white-space: nowrap;
+		background: url(/system/ckeditor_assets/pictures/458916/content_time-icon.png) left center no-repeat;
+		color: #fff !important;
+		font-family: Montserrat, sans-serif;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	._customer-footer__btns {
+		width: 282px;
+	}
+
+	._customer-footer__callback {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 56px;
+		border-radius: 28px;
+		background-image: linear-gradient(to right, #0cb198 0, #0cb198 99%, #0cb198 100%);
+		border: none;
+		outline: 0;
+		padding: 0;
+		color: #fff;
+		font-family: Montserrat, sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	._customer-footer__callback:hover {
+		cursor: pointer;
+		opacity: 0.85;
+	}
+
+	._customer-footer__order {
+		margin-top: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 56px;
+		border-radius: 28px;
+		background-image: linear-gradient(to right, #0cb198 0, #0cb198 99%, #0cb198 100%);
+		border: none;
+		outline: 0;
+		padding: 2px;
+	}
+
+	._customer-footer__order span {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		color: #fff;
+		font-family: Montserrat, sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		text-align: center;
+		text-transform: uppercase;
+		background-color: #006c83;
+		border-radius: 28px;
+	}
+
+	._customer-footer__order:hover {
+		cursor: pointer;
+		opacity: 0.85;
+	}
+
+	._customer-footer__order:hover span {
+		background-color: transparent;
+	}
+
+	@media (max-width: 1180px) {
+		._customer-footer {
+			padding: 50px 0;
+		}
+
+		._customer-footer__company {
+			font-size: 37px;
+		}
+
+		._customer-footer__menu-item {
+			font-size: 14px;
+		}
+
+		._customer-footer__email,
+		._customer-footer__location,
+		._customer-footer__phone,
+		._customer-footer__time {
+			font-size: 14px;
+		}
+
+		._customer-footer__btns {
+			width: 220px;
+		}
+
+		._customer-footer__callback {
+			font-size: 14px;
+			height: 50px;
+			border-radius: 25px;
+		}
+
+		._customer-footer__order {
+			height: 50px;
+			border-radius: 25px;
+		}
+
+		._customer-footer__order span {
+			font-size: 14px;
+			border-radius: 25px;
+		}
+	}
+</style>
+<div class="_customer-footer" itemscope itemtype="http://schema.org/LocalBusiness">
+	<div class="_customer-footer__container">
+		<a href="/" class="_customer-footer__company">ООО «Элит-ЖБИ»</a>
+		<div class="_customer-footer__divider"></div>
+		<div class="_customer-footer__wrapper">
+			<div class="_customer-footer__menu">
+				<div class="_customer-footer__menu-title">Покупателям</div>
+
+				<a
+					href="/about"
+					class="_customer-footer__menu-item"
+					onclick="yaCounter45589971.reachGoal('megasite_footer_link_about'); return true;"
+				>
+					О компании
+				</a>
+				<a
+					href="/catalog"
+					class="_customer-footer__menu-item"
+					onclick="yaCounter45589971.reachGoal('megasite_footer_link_catalog'); return true;"
+				>
+					Каталог
+				</a>
+				<a
+					href="/delivery"
+					class="_customer-footer__menu-item"
+					onclick="yaCounter45589971.reachGoal('megasite_footer_link_delivery'); return true;"
+				>
+					Доставка и оплата
+				</a>
+				<a
+					href="/contacts"
+					class="_customer-footer__menu-item"
+					onclick="yaCounter45589971.reachGoal('megasite_footer_link_contacts'); return true;"
+				>
+					Контакты
+				</a>
+			</div>
+
+			<div class="_customer-footer__menu">
+				<div class="_customer-footer__menu-title">Контакты</div>
+
+				<a
+					href="tel:+79215625352"
+					class="_customer-footer__phone"
+					onclick="yaCounter45589971.reachGoal('megasite_footer_tel'); return true;"
+					itemprop="telephone"
+				>
+					+7 (921) 562-53-52
+				</a>
+				<a
+					href="tel:+78129203214"
+					class="_customer-footer__phone"
+					onclick="yaCounter45589971.reachGoal('megasite_footer_tel'); return true;"
+					itemprop="telephone"
+				>
+					+7 (812) 920-32-14
+				</a>
+
+				<a
+					href="tel:elit.gbi@yandex.ru"
+					class="_customer-footer__email"
+					onclick="yaCounter45589971.reachGoal('megasite_footer_email'); return true;"
+					itemprop="email"
+				>
+					elit.gbi@yandex.ru
+				</a>
+			</div>
+
+			<div class="_customer-footer__contacts">
+				<div class="_customer-footer__location">г. Санкт-Петербург</div>
+				<div class="_customer-footer__time">пн-пт 9:00-18:00, без перерыва</div>
+			</div>
+
+			<div class="_customer-footer__btns">
+				<div
+					class="ab-order js-apress-order-button js-orders-callback-link _customer-footer__callback"
+					data-agreements='Нажимая "&lt;span class="translation_missing" title="translation missing: mobile.apress.orders.hbs.callback.mobile.button"&gt;Button&lt;/span&gt;", вы даете согласие на обработку персональных данных в
+					соответствии с &lt;a href="https://www.pulscen.ru/about/privacy" target="_blank" class="aui-link"&gt;политикой конфиденциальности&lt;/a&gt; и
+					принимаете условия &lt;a href="https://www.pulscen.ru/about/terms" target="_blank" class="aui-link"&gt;пользовательского соглашения&lt;/a&gt;.'
+					data-app-order-confirm='&lt;p&gt; &lt;span style="font-size:16px;"&gt;Покупка товаров и отслеживание статуса заказа в мобильном приложении.&lt;/span&gt;&lt;/p&gt; &lt;div&gt; &lt;p&gt; В бесплатном приложении Пульса цен более 9 млн товаров и услуг, возможность быстро найти товар, связаться с поставщиком и оформить заказ.&lt;/p&gt; &lt;/div&gt; &lt;p&gt; &lt;/p&gt;'
+					data-button-type="order_callback"
+					data-company="99595434"
+					data-company-id="99595434"
+					data-company-name="ЭЛИТ-ЖБИ"
+					data-company-name-rest=""
+					data-company-url="/catalog"
+					data-params='{"company_id":"99595434"}'
+					data-statistics="1"
+					data-type="callback"
+					onclick="yaCounter45589971.reachGoal('megasite_footer_callback'); return true;"
+				>
+					Заказать звонок
+				</div>
+
+				<div
+					class="ab-order js-apress-order-button js-get-order-form _customer-footer__order"
+					data-company-contacts-url="/contacts"
+					data-company-name="ЭЛИТ-ЖБИ"
+					data-params='{"company_id":"99595434"}'
+					data-type="message"
+					onclick="yaCounter45589971.reachGoal('megasite_footer_order'); return true;"
+				>
+					<span> Оставить заявку </span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display: none" itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
+		<span itemprop="addressLocality"> г. Санкт-Петербург, </span>
+		<span itemprop="streetAddress"> ул. Зеленина Б., 4, корпус ЛИТЕР А </span>
+	</div>
+	<meta itemprop="name" content="ЭЛИТ-ЖБИ" />
+</div>

@@ -1,0 +1,1834 @@
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+  rel="stylesheet">
+<link href="/assets/custom_assets/swiper.min.css" rel="stylesheet" />
+<link href="/assets/custom_assets/megasite_slider.min.css" rel="stylesheet" />
+<style type="text/css">
+  /* Start reset */
+
+  .company-page-content .cpc-text-wrapper ._customer-grid__item-logo img {
+    max-width: initial;
+  }
+
+  .company-content ._customer-grid__item-logo img,
+  .company-content ._customer-feedback__logo img {
+    max-width: initial;
+  }
+
+
+  .modern-skin .company-content {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  .company-page-content .cpc-text-wrapper iframe {
+    max-width: initial;
+    max-height: initial;
+  }
+
+  .tmpl-company-content {
+    background-color: transparent;
+  }
+
+  .company-content {
+    padding: 0px;
+    line-height: inherit;
+  }
+
+  .company-content__column-second-wrapper {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0px;
+  }
+
+  .modern-skin .company-header:not(.company-about__header):not(.company-header__products) {
+    margin: 0 !important;
+  }
+
+  .breadcrumbs-slider__container {
+    display: none;
+  }
+
+  ._customer-visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+
+  .company-header__content {
+    display: block;
+  }
+
+  .company-page-content {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .cpc-header {
+    display: none;
+  }
+
+  .cp-text-wrapper {
+    margin: 0;
+  }
+
+  ._customer-hash span {
+    display: block;
+  }
+
+  ._customer-hash ul,
+  ._customer-hash ol,
+  ._customer-hash li {
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  ._customer-hash * {
+    font-family: 'Arial', sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+  }
+
+  /* End reset */
+
+  /* Main Styles*/
+
+  ._customer-channels {
+    background: #fff;
+  }
+
+  ._customer-intro__container {
+    max-width: 1228px;
+    margin: 0 auto;
+    padding: 68px 10px 80px;
+  }
+
+  ._customer-title h2 {
+    font: 800 44px "Montserrat", sans-serif;
+    text-transform: uppercase;
+  }
+
+  ._customer-intro__title {
+    margin-bottom: 25px;
+  }
+
+  ._customer-intro__text--1 {
+    margin-bottom: 75px;
+  }
+
+  ._customer-intro__text--2 {
+    margin-bottom: 15px;
+  }
+
+  ._customer-gen-text span {
+    font: 400 16px/22px "Montserrat", sans-serif;
+  }
+
+  ._customer-intro__template {
+    background: #006c83;
+    padding: 35px 40px;
+    border-radius: 30px;
+    margin-bottom: 70px;
+  }
+
+  ._customer-intro__template span {
+    font: 600 20px/26px "Montserrat", sans-serif;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  ._customer-subtitle h2 {
+    font: 800 34px/1.2 "Montserrat", sans-serif;
+    text-transform: uppercase;
+  }
+
+  ._customer-template__subtitle {
+    margin-bottom: 25px;
+  }
+
+  ._customer-template__subtitle h2 {
+    color: #fff;
+  }
+
+  ._customer-template__list ul {
+    list-style: none !important;
+  }
+
+  ._customer-template__list--1 {
+    margin-bottom: 30px;
+  }
+
+  ._customer-template__list--1 ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 360px 12px 400px 12px 335px;
+    grid-template-columns: 360px 400px 335px;
+    gap: 12px;
+  }
+
+  ._customer-template__list-item {
+    color: #fff;
+    font: 400 16px/22px "Montserrat", sans-serif;
+    padding-left: 25px !important;
+    position: relative;
+  }
+
+  ._customer-template__list-item:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 18px;
+    height: 9px;
+    background: url(/system/ckeditor_assets/pictures/468143/content_list_marker.png) no-repeat center/cover;
+  }
+
+  ._customer-template__list--2 ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 360px 12px 360px 12px 335px;
+    grid-template-columns: 360px 360px 335px;
+    gap: 12px;
+  }
+
+  ._customer-template__list--2 ul ._customer-template__list-item:nth-of-type(3) {
+    position: relative;
+    right: -40px;
+  }
+
+  ._customer-adv__subtitle {
+    margin-bottom: 27px;
+  }
+
+  ._customer-grid__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 32px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+
+  ._customer-grid__item {
+    background: #006c83;
+    border-radius: 30px;
+  }
+
+  ._customer-grid__item-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 22px;
+    padding: 35px 45px 33px 40px;
+  }
+
+  ._customer-grid__item-logo {
+    padding-top: 3px;
+  }
+
+  ._customer-grid__item-text span {
+    font: 400 16px/22px "Montserrat", sans-serif;
+    color: #fff;
+  }
+
+  ._customer-adv-swiper {
+    display: none !important;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  ._customer-adv-swiper ._customer-grid__item-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  ._customer-adv-swiper ._customer-grid__item-logo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  ._customer-adv-swiper ._customer-grid__item-text span {
+    text-align: center;
+  }
+
+  ._customer-adv-swiper__pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    gap: 5px;
+    display: none;
+  }
+
+  ._customer-products {
+    background: #efefef;
+  }
+
+  ._customer-products__container {
+    margin: 0 auto;
+    max-width: 1228px;
+    padding: 80px 10px 80px;
+  }
+
+  ._customer-table {
+    margin-bottom: 40px;
+  }
+
+  ._customer-table__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 26px 1fr 26px 1fr 26px 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+  }
+
+  ._customer-table__item {
+    background: #fff;
+    overflow: hidden;
+    border-radius: 30px;
+  }
+
+  ._customer-table__item:hover {
+    -webkit-box-shadow: 0 0 13px 2px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 0 13px 2px rgba(0, 0, 0, 0.07);
+  }
+
+  ._customer-table__item-container {
+    padding: 15px 15px 20px;
+  }
+
+  ._customer-table__item-logo {
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+
+  ._customer-table__item-title {
+    margin-bottom: 8px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  ._customer-table__item-title h2 {
+    font: 500 16px/22px "Montserrat", sans-serif;
+    text-align: center;
+  }
+
+  ._customer-table__item-price {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  ._customer-table__item-price span {
+    font: 700 16px/23px "Montserrat", sans-serif;
+    text-align: center;
+  }
+
+  ._customer-table__item-btn-wrapper {
+    padding: 0 6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+  }
+
+  ._customer-table__item-btn-order {
+    cursor: pointer !important;
+    width: 100% !important;
+    max-width: 175px !important;
+    height: 56px !important;
+    border: 2px solid #038F7A !important;
+    outline: none !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    margin: 0 !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    padding: 10px !important;
+    border-radius: 28px !important;
+    font: 600 16px/23px "Montserrat", sans-serif !important;
+    text-transform: uppercase !important;
+    color: #038F7A !important;
+    min-width: 0 !important;
+  }
+
+  ._customer-table__item-btn-order:hover {
+    background: -o-linear-gradient(left, #00836f 0%, #00836f 2%, #0cb198 99%, #0cb198 100%) !important;
+    background: -webkit-gradient(linear, left top, right top, from(#00836f), color-stop(2%, #00836f), color-stop(99%, #0cb198), to(#0cb198)) !important;
+    background: linear-gradient(to right, #00836f 0%, #00836f 2%, #0cb198 99%, #0cb198 100%) !important;
+    color: #fff !important;
+    border: none !important;
+  }
+
+  ._customer-table__item-btn-cart-order {
+    cursor: pointer !important;
+    width: 100% !important;
+    max-width: 56px !important;
+    margin: 0 !important;
+    height: 56px !important;
+    border-radius: 50% !important;
+    min-width: 0 !important;
+    padding: 0 !important;
+  }
+
+  ._customer-table__item-btn-wrapper .apress-button:hover {
+    background: transparent;
+  }
+
+  ._customer-table__item-btn-cart-order img:nth-of-type(2) {
+    display: none !important;
+  }
+
+  ._customer-table__item-btn-cart-order:hover img:nth-of-type(2) {
+    display: block !important;
+  }
+
+  ._customer-table__item-btn-cart-order:hover img:nth-of-type(1) {
+    display: none !important;
+  }
+
+  ._customer-prod-swiper {
+    width: 100%;
+    overflow: hidden;
+    display: none !important;
+    margin-bottom: 15px;
+  }
+
+  ._customer-prod-swiper ._customer-table__item-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  ._customer-prod-swiper ._customer-table__item-btn-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  ._customer-prod-swiper__pagination {
+    display: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+
+  .swiper-pagination-clickable .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #919191;
+    opacity: 1;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .swiper-pagination-clickable .swiper-pagination-bullet-active {
+    width: 36px;
+    background: #0cb097;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  ._customer-prod__catalog-btn-link {
+    width: 100%;
+    text-decoration: none;
+  }
+
+  ._customer-prod__catalog-btn {
+    cursor: pointer;
+    border: 2px solid #038F7A;
+    outline: none;
+    width: 100%;
+    height: 56px;
+    border-radius: 28px;
+    gap: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px;
+    color: #038F7A;
+    text-transform: uppercase;
+    font: 600 16px/23px "Montserrat", sans-serif;
+  }
+
+  ._customer-prod__catalog-btn:hover {
+    border: none;
+    color: #fff;
+    background: -o-linear-gradient(left, #00836f 0%, #0cb198 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#00836f), to(#0cb198));
+    background: linear-gradient(90deg, #00836f 0%, #0cb198 100%);
+  }
+
+  ._customer-prod__catalog-btn:hover img {
+    -webkit-filter: contrast(0%) brightness(10);
+    filter: contrast(0%) brightness(10);
+  }
+
+  ._customer-construction__container {
+    margin: 0 auto;
+    padding: 80px 10px 80px;
+    max-width: 1228px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 284px 24px 1fr;
+    grid-template-columns: 284px 1fr;
+    gap: 24px;
+  }
+
+  ._customer-construction__logo {
+    background-image: -o-linear-gradient(bottom, #f8f8f8 0%, #ffffff 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#f8f8f8), to(#ffffff));
+    background-image: linear-gradient(0deg, #f8f8f8 0%, #ffffff 100%);
+    padding: 45px 20px 25px 20px;
+    border: 1px solid #f7f7f7;
+    border-radius: 30px;
+  }
+
+  ._customer-construction__template {
+    background-color: #efefef;
+    border-radius: 30px;
+    padding: 30px 40px;
+  }
+
+  ._customer-construction__subtitle {
+    margin-bottom: 8px;
+  }
+
+  ._customer-feedback__container {
+    margin: 0 auto;
+    max-width: 1228px;
+    padding: 34px 10px 72px;
+  }
+
+  ._customer-feedback__title {
+    margin-bottom: 25px;
+  }
+
+  ._customer-feedback__title h2 {
+    letter-spacing: -0.01em;
+  }
+
+  ._customer-feedback__subtitle {
+    margin-bottom: 35px;
+  }
+
+  ._customer-feedback__subtitle h2 {
+    font: 600 18px/24px "Montserrat", sans-serif;
+  }
+
+  ._customer-feedback__inner-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  ._customer-form__inputs {
+    margin-bottom: 10px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 25px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    -moz-column-gap: 25px;
+    -webkit-column-gap: 25px;
+    column-gap: 25px;
+  }
+
+  ._customer-form__input {
+    border: 1px solid #d5f1ff;
+    border-radius: 28px;
+    width: 100%;
+    max-width: 282px;
+    height: 56px;
+    padding: 15px 17px;
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__textarea {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    border: 1px solid #d5f1ff;
+    border-radius: 28px;
+    width: 100%;
+    max-width: 281px;
+    height: 188px;
+    padding: 17px 15px;
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-moz-placeholder,
+  ._customer-form__textarea::-moz-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-moz-placeholder,
+  ._customer-form__textarea::-moz-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-moz-placeholder,
+  ._customer-form__textarea::-moz-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-moz-placeholder,
+  ._customer-form__textarea::-moz-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-moz-placeholder,
+  ._customer-form__textarea::-moz-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-webkit-input-placeholder,
+  ._customer-form__textarea::-webkit-input-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input:-ms-input-placeholder,
+  ._customer-form__textarea:-ms-input-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-ms-input-placeholder,
+  ._customer-form__textarea::-ms-input-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-webkit-input-placeholder,
+  ._customer-form__textarea::-webkit-input-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-moz-placeholder,
+  ._customer-form__textarea::-moz-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input:-ms-input-placeholder,
+  ._customer-form__textarea:-ms-input-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::-ms-input-placeholder,
+  ._customer-form__textarea::-ms-input-placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__input::placeholder,
+  ._customer-form__textarea::placeholder {
+    font: normal 400 16px "Montserrat", sans-serif;
+    color: #7d7d7d;
+  }
+
+  ._customer-form__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 35px;
+  }
+
+  ._customer-form__btn--file {
+    cursor: pointer !important;
+    outline: none !important;
+    width: 100% !important;
+    max-width: 282px !important;
+    height: 56px !important;
+    border-radius: 28px !important;
+    border: 2px solid #038F7A !important;
+    border-image-slice: 1 !important;
+    background: transparent;
+    font: 600 16px/23px "Montserrat", sans-serif !important;
+    text-transform: uppercase !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    padding: 10px !important;
+    gap: 10px !important;
+    color: #038F7A !important;
+  }
+
+  ._customer-form__btn--file:hover {
+    background: -o-linear-gradient(left, #00836f 0%, #0cb198 100%) !important;
+    background: -webkit-gradient(linear, left top, right top, from(#00836f), to(#0cb198)) !important;
+    background: linear-gradient(90deg, #00836f 0%, #0cb198 100%) !important;
+    color: #fff !important;
+    border: none !important;
+    outline: none !important;
+  }
+
+  ._customer-form__btn--file:hover img {
+    -webkit-filter: contrast(0%) brightness(10) !important;
+    filter: contrast(0%) brightness(10) !important;
+  }
+
+  ._customer-form__btn--submit {
+    cursor: pointer !important;
+    outline: none !important;
+    border: none !important;
+    width: 100% !important;
+    max-width: 282px !important;
+    height: 56px !important;
+    border-radius: 28px !important;
+    border-image-slice: 1 !important;
+    background: -o-linear-gradient(left, #00836f 0%, #0cb198 100%) !important;
+    background: -webkit-gradient(linear, left top, right top, from(#00836f), to(#0cb198)) !important;
+    background: linear-gradient(90deg, #00836f 0%, #0cb198 100%) !important;
+    font: 600 16px/23px "Montserrat", sans-serif !important;
+    text-transform: uppercase !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    padding: 10px !important;
+    color: #fff !important;
+  }
+
+  ._customer-form__btn--submit:hover {
+    background: transparent !important;
+    color: #038F7A !important;
+    border: 2px solid #038F7A !important;
+  }
+
+  ._customer-form__btn--submit:hover img {
+    -webkit-filter: contrast(0%) brightness(10) !important;
+    filter: contrast(0%) brightness(10) !important;
+  }
+
+  ._customer-form__terms {
+    max-width: 90%;
+  }
+
+  ._customer-form__terms span {
+    font: 500 14px/20px "Montserrat", sans-serif;
+  }
+
+  ._customer-form__terms--link {
+    font: 500 14px/20px "Montserrat", sans-serif;
+    color: #038F7A !important;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  ._customer-form__terms--link:hover {
+    text-decoration: none;
+  }
+
+  ._customer-form__buttons button:disabled {
+    opacity: 0.7;
+  }
+
+  ._customer-form__btn--file:disabled:hover,
+  ._customer-form__btn--submit:disabled:hover {
+    cursor: not-allowed !important;
+  }
+
+  /* Media queries */
+
+  @media(max-width:1250px) {
+    ._customer-table__item-btn-wrapper {
+      gap: 5px;
+    }
+
+    ._customer-template__list--1 ul,
+    ._customer-template__list--2 ul {
+      -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    ._customer-template__list--2 ul ._customer-template__list-item:nth-of-type(3) {
+      right: 0;
+    }
+
+    ._customer-grid__item-container {
+      height: 100%;
+      padding: 20px;
+    }
+
+    ._customer-table__container {
+      gap: 10px;
+    }
+
+    ._customer-construction__template,
+    ._customer-construction__logo {
+      padding: 20px;
+    }
+
+    ._customer-construction__logo {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+
+    ._customer-feedback__title h2 {
+      font-size: 35px;
+    }
+
+    ._customer-feedback__inner-container {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .company-content ._customer-feedback__logo img {
+      max-width: 100%;
+    }
+  }
+
+  @media(max-width:978px) {
+
+    ._customer-intro__container,
+    ._customer-products__container,
+    ._customer-construction__container {
+      padding: 20px 10px;
+    }
+
+    ._customer-title h2 {
+      font-size: 28px;
+      line-height: 1.2;
+    }
+
+    ._customer-intro__title,
+    ._customer-intro__text--1,
+    ._customer-template__subtitle,
+    ._customer-template__list--1,
+    ._customer-intro__template,
+    ._customer-adv__subtitle,
+    ._customer-intro__text--2,
+    ._customer-feedback__title,
+    ._customer-feedback__subtitle,
+    ._customer-form__buttons {
+      margin-bottom: 20px;
+    }
+
+    ._customer-intro__template {
+      padding: 20px;
+    }
+
+    ._customer-subtitle h2,
+    ._customer-feedback__title h2 {
+      font-size: 24px;
+    }
+
+    ._customer-intro__template span,
+    ._customer-feedback__subtitle h2 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    ._customer-template__list--1 ul,
+    ._customer-template__list--2 ul,
+    ._customer-feedback__inner-container {
+      display: block;
+    }
+
+    .company-page-content .cpc-text-wrapper ul,
+    .company-page-content .cpc-text-wrapper ol {
+      margin-left: 0;
+    }
+
+    ._customer-adv__grid,
+    ._customer-table,
+    ._customer-construction__logo,
+    ._customer-feedback__logo {
+      display: none;
+    }
+
+    ._customer-adv-swiper,
+    ._customer-prod-swiper {
+      display: block !important;
+    }
+
+    ._customer-grid__item-logo {
+      padding-top: 0;
+    }
+
+    ._customer-adv-swiper__pagination,
+    ._customer-prod-swiper__pagination {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+
+    ._customer-table__item-btn-wrapper {
+      padding: 0;
+    }
+
+    ._customer-table__item-btn-order {
+      max-width: 100% !important;
+    }
+
+    ._customer-table__item:hover {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    ._customer-construction__container {
+      display: block;
+    }
+
+    ._customer-feedback__container {
+      padding: 0 10px 20px;
+    }
+
+    ._customer-form__inputs {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+
+    ._customer-form__input,
+    ._customer-form__textarea {
+      max-width: 100%;
+    }
+
+    ._customer-form__textarea {
+      height: 60px;
+    }
+
+    ._customer-form__buttons {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    ._customer-form__terms {
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+
+  @media(max-width:767px) {
+    ._customer-title h2 {
+      text-align: center;
+    }
+
+    ._customer-subtitle h2,
+    ._customer-feedback__title h2,
+    ._customer-intro__template span,
+    ._customer-feedback__subtitle h2 {
+      text-align: center;
+    }
+  }
+
+  @media(max-width:480px) {
+
+    ._customer-gen-text span,
+    ._customer-template__list-item,
+    ._customer-grid__item-text span,
+    ._customer-table__item-title h2,
+    ._customer-table__item-price span,
+    ._customer-table__item-btn-order,
+    ._customer-prod__catalog-btn {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    ._customer-intro__template span,
+    ._customer-feedback__subtitle h2 {
+      font-size: 16px;
+    }
+
+    ._customer-table__item-btn-order,
+    ._customer-table__item-btn-cart-order,
+    ._customer-prod__catalog-btn,
+    ._customer-form__input {
+      height: 40px !important;
+    }
+
+    ._customer-table__item-btn-cart-order {
+      max-width: 40px !important;
+    }
+
+    ._customer-form__buttons {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+
+    ._customer-form__btn--file,
+    ._customer-form__btn--submit {
+      max-width: 100% !important;
+      height: 40px !important;
+    }
+  }
+
+  @media(max-width:479px) {
+
+    ._customer-subtitle h2,
+    ._customer-feedback__title h2 {
+      font-size: 22px;
+    }
+
+    ._customer-grid__item {
+      height: 180px;
+    }
+  }
+</style>
+<!-- DOM -->
+
+<div class="_customer-hash">
+  <div class="_customer-hash__container">
+    <div class="_customer-channels">
+      <div class="_customer-channels__container">
+        <section class="_customer-intro">
+          <div class="_customer-intro__container">
+            <div class="_customer-title _customer-intro__title">
+              <h2>
+                Непроходные каналы
+              </h2>
+            </div>
+            <div class="_customer-intro__text _customer-intro__text--1 _customer-gen-text">
+              <span>
+                Непроходные каналы&nbsp;– железобетонные изделия, применяемые при&nbsp;строительстве технологических
+                каналов под теплоэнергетические и другие муниципальные и&nbsp;промышленные сети. Такое устройство
+                позволяет размещать внутри полости элемента трубы диаметром 800-1000 мм при&nbsp;бесканальной
+                прокладке и&nbsp;900-1200&nbsp;- при канальной.
+              </span>
+            </div>
+            <div class="_customer-intro__template">
+              <div class="_customer-subtitle _customer-template__subtitle">
+                <h2>
+                  Назначение непроходных ж/б каналов
+                </h2>
+              </div>
+              <span>
+                Непроходные каналы используются для&nbsp;создания защищенной шахты, внутри которой прокладываются:
+              </span>
+              <div class="_customer-template__list _customer-template__list--1">
+                <ul>
+                  <li class="_customer-template__list-item">
+                    Кабельные трассы.
+                  </li>
+                  <li class="_customer-template__list-item">
+                    Трубопроводы теплосетей и&nbsp;водоснабжения.
+                  </li>
+                  <li class="_customer-template__list-item">
+                    Прочие протяженные коммуникации.
+                  </li>
+                </ul>
+              </div>
+              <span>
+                Смонтированная в&nbsp;соответствии с&nbsp;проектом и&nbsp;действующими регламентами система
+                непроходных каналов обеспечивает исключение влияния следующих негативных факторов:
+              </span>
+              <div class="_customer-template__list _customer-template__list--2">
+                <ul>
+                  <li class="_customer-template__list-item">
+                    Механические воздействия&nbsp;– давление&nbsp;грунта, вибрации, удары.
+                  </li>
+                  <li class="_customer-template__list-item">
+                    Проникновение грунтовых, талых, сточных&nbsp;вод в&nbsp;технологическую полость.
+                  </li>
+                  <li class="_customer-template__list-item">
+                    Нарушение теплоизоляции, химические загрязнения.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="_customer-subtitle _customer-adv__subtitle">
+              <h2>
+                Преимущества непроходных каналов
+              </h2>
+            </div>
+            <div class="_customer-intro__text _customer-intro__text--2 _customer-gen-text">
+              <span>
+                Использование непроходных железобетонных каналов при&nbsp;устройстве коммуникаций&nbsp;– гарантия
+                исправной работы системы. Имеется и&nbsp;ряд других преимуществ:
+              </span>
+            </div>
+            <div class="_customer-adv__grid _customer-grid">
+              <div class="_customer-grid__container">
+                <div class="_customer-grid__item _customer-grid__item--1">
+                  <div class="_customer-grid__item-container">
+                    <div class="_customer-grid__item-logo">
+                      <img src="/system/ckeditor_assets/pictures/475746/content_adv_icon-1.png" alt="" loading="lazy">
+                    </div>
+                    <div class="_customer-grid__item-text">
+                      <span>
+                        Повышенная прочность и&nbsp;долговечность изделий, достигаемая благодаря использованию
+                        закладных из&nbsp;высокоуглеродистой стали.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-grid__item _customer-grid__item--2">
+                  <div class="_customer-grid__item-container">
+                    <div class="_customer-grid__item-logo">
+                      <img src="/system/ckeditor_assets/pictures/475748/content_adv_icon-2.png" alt="" loading="lazy">
+                    </div>
+                    <div class="_customer-grid__item-text">
+                      <span>
+                        Высокая сопротивляемость бетона воздействию влаги&nbsp;– результат применения на&nbsp;этапе
+                        производства гидроизолирующих материалов.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="_customer-adv-swiper swiper">
+              <div class="_customer-adv-swiper-wrapper swiper-wrapper">
+                <div class="_customer-adv-swiper-slide swiper-slide">
+                  <div class="_customer-adv-swiper-slide-container">
+                    <div class="_customer-grid__item _customer-grid__item--1">
+                      <div class="_customer-grid__item-container">
+                        <div class="_customer-grid__item-logo">
+                          <img src="/system/ckeditor_assets/pictures/475746/content_adv_icon-1.png" alt=""
+                            loading="lazy">
+                        </div>
+                        <div class="_customer-grid__item-text">
+                          <span>
+                            Повышенная прочность и&nbsp;долговечность изделий, достигаемая благодаря использованию
+                            закладных из&nbsp;высокоуглеродистой стали.
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-adv-swiper-slide swiper-slide">
+                  <div class="_customer-adv-swiper-slide-container">
+                    <div class="_customer-grid__item _customer-grid__item--2">
+                      <div class="_customer-grid__item-container">
+                        <div class="_customer-grid__item-logo">
+                          <img src="/system/ckeditor_assets/pictures/475748/content_adv_icon-2.png" alt=""
+                            loading="lazy">
+                        </div>
+                        <div class="_customer-grid__item-text">
+                          <span>
+                            Высокая сопротивляемость бетона воздействию влаги&nbsp;– результат применения
+                            на&nbsp;этапе
+                            производства гидроизолирующих материалов.
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="_customer-adv-swiper__pagination"></div>
+          </div>
+        </section>
+        <section class="_customer-products">
+          <div class="_customer-products__container">
+            <div class="_customer-table">
+              <div class="_customer-table__container">
+                <div class="_customer-table__item _customer-table__item--1">
+                  <div class="_customer-table__item-container">
+                    <div class="_customer-table__item-logo">
+                      <img src="/system/ckeditor_assets/pictures/475751/content_product_logo.png" alt="" loading="lazy">
+                    </div>
+                    <div class="_customer-table__item-title">
+                      <h2>
+                        Канал железобетонный КН-3 непроходной элемент теплотрассы
+                      </h2>
+                    </div>
+                    <div class="_customer-table__item-price">
+                      <span>
+                        4&nbsp;390 руб./шт.
+                      </span>
+                    </div>
+                    <div class="_customer-table__item-btn-wrapper">
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_order_83054186'); return true;"
+                        class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;83054186&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product-title="Канал железобетонный КН-3 непроходной элемент теплотрассы"
+                        data-qty-with-measure="" data-retail-price="4 390 руб./шт." data-type="product"
+                        data-wholesale-price="">Заказать</div>
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_83054186'); return true;"
+                        class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                        data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:83054186,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                        data-button-type="order_cart" data-company="99595434"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;83054186&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product="83054186"
+                        data-product-title="Канал железобетонный КН-3 непроходной элемент теплотрассы"
+                        data-qty-with-measure="" data-retail-price="4 390 руб./шт." data-type="cart"
+                        data-wholesale-price=""><img src="/system/ckeditor_assets/pictures/459116/content_cart.png"
+                          alt="" loading="lazy"><img
+                          src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-table__item _customer-table__item--2">
+                  <div class="_customer-table__item-container">
+                    <div class="_customer-table__item-logo">
+                      <img src="/system/ckeditor_assets/pictures/475751/content_product_logo.png" alt="" loading="lazy">
+                    </div>
+                    <div class="_customer-table__item-title">
+                      <h2>
+                        Канал железобетонный КН-7 непроходной элемент теплотрассы
+                      </h2>
+                    </div>
+                    <div class="_customer-table__item-price">
+                      <span>
+                        9&nbsp;500 руб./шт.
+                      </span>
+                    </div>
+                    <div class="_customer-table__item-btn-wrapper">
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_order_83054213'); return true;"
+                        class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;83054213&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product-title="Канал железобетонный КН-7 непроходной элемент теплотрассы"
+                        data-qty-with-measure="" data-retail-price="9 500 руб./шт." data-type="product"
+                        data-wholesale-price="">Заказать</div>
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_83054213'); return true;"
+                        class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                        data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:83054213,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                        data-button-type="order_cart" data-company="99595434"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;83054213&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product="83054213"
+                        data-product-title="Канал железобетонный КН-7 непроходной элемент теплотрассы"
+                        data-qty-with-measure="" data-retail-price="9 500 руб./шт." data-type="cart"
+                        data-wholesale-price=""><img src="/system/ckeditor_assets/pictures/459116/content_cart.png"
+                          alt="" loading="lazy"><img
+                          src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-table__item _customer-table__item--3">
+                  <div class="_customer-table__item-container">
+                    <div class="_customer-table__item-logo">
+                      <img src="/system/ckeditor_assets/pictures/475751/content_product_logo.png" alt="" loading="lazy">
+                    </div>
+                    <div class="_customer-table__item-title">
+                      <h2>
+                        Канал железобетонный КН-5 непроходной элемент теплотрассы
+                      </h2>
+                    </div>
+                    <div class="_customer-table__item-price">
+                      <span>
+                        3&nbsp;800 руб./шт.
+                      </span>
+                    </div>
+                    <div class="_customer-table__item-btn-wrapper">
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_order_83054197'); return true;"
+                        class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;83054197&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product-title="Канал железобетонный КН-5 непроходной элемент теплотрассы"
+                        data-qty-with-measure="" data-retail-price="3 800 руб./шт." data-type="product"
+                        data-wholesale-price="">Заказать</div>
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_83054197'); return true;"
+                        class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                        data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:83054197,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                        data-button-type="order_cart" data-company="99595434"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;83054197&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product="83054197"
+                        data-product-title="Канал железобетонный КН-5 непроходной элемент теплотрассы"
+                        data-qty-with-measure="" data-retail-price="3 800 руб./шт." data-type="cart"
+                        data-wholesale-price=""><img src="/system/ckeditor_assets/pictures/459116/content_cart.png"
+                          alt="" loading="lazy"><img
+                          src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-table__item _customer-table__item--4">
+                  <div class="_customer-table__item-container">
+                    <div class="_customer-table__item-logo">
+                      <img src="/system/ckeditor_assets/pictures/475751/content_product_logo.png" alt="" loading="lazy">
+                    </div>
+                    <div class="_customer-table__item-title">
+                      <h2>
+                        Канал железобетонный КН-2 непроходной элемент теплотрассы
+                      </h2>
+                    </div>
+                    <div class="_customer-table__item-price">
+                      <span>
+                        2&nbsp;650 руб./шт.
+                      </span>
+                    </div>
+                    <div class="_customer-table__item-btn-wrapper">
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_order_83054180'); return true;"
+                        class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;83054180&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product-title="Канал железобетонный КН-2 непроходной элемент теплотрассы"
+                        data-qty-with-measure="" data-retail-price="2 650 руб./шт." data-type="product"
+                        data-wholesale-price="">Заказать</div>
+                      <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_83054180'); return true;"
+                        class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                        data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:83054180,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                        data-button-type="order_cart" data-company="99595434"
+                        data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                        data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                        data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                        data-params="{&quot;product_id&quot;:&quot;83054180&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                        data-product="83054180"
+                        data-product-title="Канал железобетонный КН-2 непроходной элемент теплотрассы"
+                        data-qty-with-measure="" data-retail-price="2 650 руб./шт." data-type="cart"
+                        data-wholesale-price=""><img src="/system/ckeditor_assets/pictures/459116/content_cart.png"
+                          alt="" loading="lazy"><img
+                          src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="_customer-prod-swiper swiper">
+              <div class="_customer-prod-swiper-container swiper-wrapper">
+                <div class="_customer-prod-swiper-slide swiper-slide">
+                  <div class="_customer-table__item _customer-table__item--1">
+                    <div class="_customer-table__item-container">
+                      <div class="_customer-table__item-logo">
+                        <img src="/system/ckeditor_assets/pictures/475751/content_product_logo.png" alt=""
+                          loading="lazy">
+                      </div>
+                      <div class="_customer-table__item-title">
+                        <h2>
+                          Канал железобетонный КН-3 непроходной элемент теплотрассы
+                        </h2>
+                      </div>
+                      <div class="_customer-table__item-price">
+                        <span>
+                          4&nbsp;390 руб./шт.
+                        </span>
+                      </div>
+                      <div class="_customer-table__item-btn-wrapper">
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_order_83054186'); return true;"
+                          class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;83054186&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product-title="Канал железобетонный КН-3 непроходной элемент теплотрассы"
+                          data-qty-with-measure="" data-retail-price="4 390 руб./шт." data-type="product"
+                          data-wholesale-price="">Заказать</div>
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_83054186'); return true;"
+                          class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                          data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:83054186,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                          data-button-type="order_cart" data-company="99595434"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;83054186&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product="83054186"
+                          data-product-title="Канал железобетонный КН-3 непроходной элемент теплотрассы"
+                          data-qty-with-measure="" data-retail-price="4 390 руб./шт." data-type="cart"
+                          data-wholesale-price=""><img src="/system/ckeditor_assets/pictures/459116/content_cart.png"
+                            alt="" loading="lazy"><img
+                            src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-prod-swiper-slide swiper-slide">
+                  <div class="_customer-table__item _customer-table__item--2">
+                    <div class="_customer-table__item-container">
+                      <div class="_customer-table__item-logo">
+                        <img src="/system/ckeditor_assets/pictures/475751/content_product_logo.png" alt=""
+                          loading="lazy">
+                      </div>
+                      <div class="_customer-table__item-title">
+                        <h2>
+                          Канал железобетонный КН-7 непроходной элемент теплотрассы
+                        </h2>
+                      </div>
+                      <div class="_customer-table__item-price">
+                        <span>
+                          9&nbsp;500 руб./шт.
+                        </span>
+                      </div>
+                      <div class="_customer-table__item-btn-wrapper">
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_order_83054213'); return true;"
+                          class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;83054213&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product-title="Канал железобетонный КН-7 непроходной элемент теплотрассы"
+                          data-qty-with-measure="" data-retail-price="9 500 руб./шт." data-type="product"
+                          data-wholesale-price="">Заказать</div>
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_83054213'); return true;"
+                          class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                          data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:83054213,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                          data-button-type="order_cart" data-company="99595434"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;83054213&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product="83054213"
+                          data-product-title="Канал железобетонный КН-7 непроходной элемент теплотрассы"
+                          data-qty-with-measure="" data-retail-price="9 500 руб./шт." data-type="cart"
+                          data-wholesale-price=""><img src="/system/ckeditor_assets/pictures/459116/content_cart.png"
+                            alt="" loading="lazy"><img
+                            src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-prod-swiper-slide swiper-slide">
+                  <div class="_customer-table__item _customer-table__item--3">
+                    <div class="_customer-table__item-container">
+                      <div class="_customer-table__item-logo">
+                        <img src="/system/ckeditor_assets/pictures/475751/content_product_logo.png" alt=""
+                          loading="lazy">
+                      </div>
+                      <div class="_customer-table__item-title">
+                        <h2>
+                          Канал железобетонный КН-5 непроходной элемент теплотрассы
+                        </h2>
+                      </div>
+                      <div class="_customer-table__item-price">
+                        <span>
+                          3&nbsp;800 руб./шт.
+                        </span>
+                      </div>
+                      <div class="_customer-table__item-btn-wrapper">
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_order_83054197'); return true;"
+                          class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;83054197&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product-title="Канал железобетонный КН-5 непроходной элемент теплотрассы"
+                          data-qty-with-measure="" data-retail-price="3 800 руб./шт." data-type="product"
+                          data-wholesale-price="">Заказать</div>
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_83054197'); return true;"
+                          class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                          data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:83054197,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                          data-button-type="order_cart" data-company="99595434"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;83054197&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product="83054197"
+                          data-product-title="Канал железобетонный КН-5 непроходной элемент теплотрассы"
+                          data-qty-with-measure="" data-retail-price="3 800 руб./шт." data-type="cart"
+                          data-wholesale-price=""><img src="/system/ckeditor_assets/pictures/459116/content_cart.png"
+                            alt="" loading="lazy"><img
+                            src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="_customer-prod-swiper-slide swiper-slide">
+                  <div class="_customer-table__item _customer-table__item--4">
+                    <div class="_customer-table__item-container">
+                      <div class="_customer-table__item-logo">
+                        <img src="/system/ckeditor_assets/pictures/475751/content_product_logo.png" alt=""
+                          loading="lazy">
+                      </div>
+                      <div class="_customer-table__item-title">
+                        <h2>
+                          Канал железобетонный КН-2 непроходной элемент теплотрассы
+                        </h2>
+                      </div>
+                      <div class="_customer-table__item-price">
+                        <span>
+                          2&nbsp;650 руб./шт.
+                        </span>
+                      </div>
+                      <div class="_customer-table__item-btn-wrapper">
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_order_83054180'); return true;"
+                          class="_customer-table__item-btn-order apress-button ab-order js-apress-order-button js-get-order-form"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;83054180&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product-title="Канал железобетонный КН-2 непроходной элемент теплотрассы"
+                          data-qty-with-measure="" data-retail-price="2 650 руб./шт." data-type="product"
+                          data-wholesale-price="">Заказать</div>
+                        <div onclick="yaCounter45589971.reachGoal('megasite_page_cart_83054180'); return true;"
+                          class="_customer-table__item-btn-cart-order apress-button ab-order js-apress-order-button js-add-orders-item"
+                          data-add-orders-item-data="{&quot;dataToAdd&quot;:{&quot;quantity&quot;:1,&quot;subject_id&quot;:83054180,&quot;company_id&quot;:99595434,&quot;measure_unit&quot;:1},&quot;popupWithNewOrdersItemData&quot;:{&quot;customerCartURL&quot;:&quot;https://www.xn----btbogdn4cze.xn--p1ai/dashboard/customer/cart&quot;}}"
+                          data-button-type="order_cart" data-company="99595434"
+                          data-company-contacts-url="https://www.xn----btbogdn4cze.xn--p1ai/contacts"
+                          data-company-name="ЭЛИТ-ЖБИ" data-company-name-rest="ООО"
+                          data-image-url="https://st26.stpulscen.ru/images/product/230/795/318_thumb.jpg"
+                          data-params="{&quot;product_id&quot;:&quot;83054180&quot;,&quot;company_id&quot;:&quot;99595434&quot;}"
+                          data-product="83054180"
+                          data-product-title="Канал железобетонный КН-2 непроходной элемент теплотрассы"
+                          data-qty-with-measure="" data-retail-price="2 650 руб./шт." data-type="cart"
+                          data-wholesale-price=""><img src="/system/ckeditor_assets/pictures/459116/content_cart.png"
+                            alt="" loading="lazy"><img
+                            src="/system/ckeditor_assets/pictures/459117/content_cart-hover.png" alt="" loading="lazy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="_customer-prod-swiper__pagination"></div>
+            <a onclick="yaCounter45589971.reachGoal('megasite_page_link_catalog_4368423'); return true;" target="_blank"
+              class="_customer-prod__catalog-btn-link" href="/catalog/k-4368423-kanaly_neprokhodnyye">
+              <button class="_customer-prod__catalog-btn">
+                Смотреть все <img src="/system/ckeditor_assets/pictures/465060/content_category_btn-arrow.png" alt=""
+                  loading="lazy">
+              </button>
+            </a>
+          </div>
+        </section>
+        <section class="_customer-construction">
+          <div class="_customer-construction__container">
+            <div class="_customer-construction__logo">
+              <img src="/system/ckeditor_assets/pictures/475756/content_main-logo.png" alt="" loading="lazy">
+            </div>
+            <div class="_customer-construction__template">
+              <div class="_customer-subtitle _customer-construction__subtitle">
+                <h2>
+                  Конструкция
+                </h2>
+              </div>
+              <div class="_customer-gen-text">
+                <span>
+                  Производятся непроходные каналы в&nbsp;соответствии с&nbsp;проектной документацией на&nbsp;изделия
+                  соответствующего типа: номер&nbsp;-&nbsp;3.903, класс&nbsp;-&nbsp;14, выпуски 1-4, 1-5. Технически
+                  конструкция представляет собой бетонный желоб, имеющий расширяющиеся к&nbsp;основанию боковые
+                  стенки. Каждый канал при&nbsp;монтаже служит продолжением монтируемой шахты под коммуникации.
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="_customer-feedback">
+          <div class="_customer-feedback__container">
+            <div class="_customer-title _customer-feedback__title">
+              <h2>
+                Нужна консультация и&nbsp;помощь в&nbsp;подборе?
+              </h2>
+            </div>
+            <div class="_customer-feedback__subtitle">
+              <h2>
+                Наши специалисты готовы предоставить всю необходимую информацию и&nbsp;ответить
+                на&nbsp;ваши вопросы
+              </h2>
+            </div>
+            <div class="_customer-feedback__inner-container">
+              <div class="_customer-feedback__form">
+                <div class="_customer-form__inputs">
+                  <input class="_customer-form__input" id="_customerName" placeholder="Имя" required="" type="text" />
+                  <input class="_customer-form__input" id="_customerPhone" placeholder="Телефон" required=""
+                    type="tel" />
+                  <input class="_customer-form__input" id="_customerEmail" placeholder="Почта" required=""
+                    type="email" />
+                  <textarea class="_customer-form__textarea" id="_customerMessage" placeholder="Комментарий"></textarea>
+                </div>
+                <div class="_customer-form__buttons">
+                  <button
+                    class="_customer-form__btn _customer-form__btn--file ab-order js-apress-order-button js-get-order-form"
+                    data-company-contacts-url="/contacts" data-company-name="ЭЛИТ-ЖБИ"
+                    data-params='{"company_id":"99595434"}' data-type="message" id="_customerFile"
+                    onclick="yaCounter45589971.reachGoal('megasite_page_write_us'); return true;">
+                    <img src="/system/ckeditor_assets/pictures/465067/content_form-upload-icon.png" alt=""
+                      loading="lazy"> Прикрепить файл
+                  </button>
+                  <button
+                    class="_customer-form__btn _customer-form__btn--submit ab-order js-apress-order-button js-get-order-form"
+                    data-company-contacts-url="/contacts" data-company-name="ЭЛИТ-ЖБИ"
+                    data-params='{"company_id":"99595434"}' data-type="message" id="_customerSubmit"
+                    onclick="yaCounter45589971.reachGoal('megasite_page_write_us'); return true;">
+                    Отправить
+                  </button>
+                </div>
+                <div class="_customer-form__terms">
+                  <span>
+                    Нажимая "Отправить", вы даете согласие на обработку персональных данных в
+                    соответствии c
+                    <a class="_customer-form__terms--link" href="/confidential" target="_blank">
+                      политикой конфиденциальности
+                    </a>
+                    и&nbsp;принимаете условия
+                    <a class="_customer-form__terms--link" href="/terms" target="_blank">
+                      пользовательского соглашения </a>.
+                  </span>
+                </div>
+              </div>
+              <div class="_customer-feedback__logo">
+                <img src="/system/ckeditor_assets/pictures/465066/content_form_logo.png" alt="" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Скрытие заголовка -->
+<script async>
+  const companyHeader = document.querySelector('.company-header__content')
+  companyHeader.classList.add('_customer-visually-hidden')
+</script>
+
+<script src="/assets/custom_assets/imask.js"></script>
+<script src="/assets/custom_assets/swiper.min.js"></script>
+
+<!-- Swipers -->
+<script async>
+  const prodSwiper = new Swiper("._customer-prod-swiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    speed: 300,
+    loop: true,
+    grabCursor: true,
+
+    autoplay: {
+      delay: 5000,
+    },
+
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      500: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      }
+    },
+
+    keyboard: {
+      enabled: true,
+    },
+
+    pagination: {
+      el: '._customer-prod-swiper__pagination',
+      clickable: true,
+    },
+  });
+
+  const advSwiper = new Swiper("._customer-adv-swiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    speed: 300,
+    loop: true,
+    grabCursor: true,
+
+    autoplay: {
+      delay: 5000,
+    },
+
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      }
+    },
+
+    keyboard: {
+      enabled: true,
+    },
+
+    pagination: {
+      el: '._customer-adv-swiper__pagination',
+      clickable: true,
+    },
+  });
+</script>
+
+<!-- Feedback -->
+<script async>
+  document.addEventListener("DOMContentLoaded", () => {
+
+    let setImask = (id) => {
+      let element = document.getElementById(id);
+      let maskOptions = {
+        mask: "+7 (000) 000-00-00",
+        lazy: false,
+      };
+      let mask = new IMask(element, maskOptions);
+    }
+
+    setImask("_customerPhone");
+
+    let _customerInputs = document.querySelectorAll("._customer-form__input");
+    setInterval(() => {
+      _customerInputs.forEach((item) => {
+        if (item.value === "" || item.value == "+7 (___) ___-__-__") {
+          item.style.border = "2px solid #ff6e58";
+        }
+        if (item.value && item.value !== "+7 (___) ___-__-__") {
+          item.style.border = "2px solid #56c56c";
+        }
+      });
+    }, 1000);
+
+    let _customerSubmitButton = document.getElementById("_customerSubmit");
+    let _customerFileButton = document.getElementById("_customerFile");
+    let _customerFinalMessage = "";
+
+    _customerSubmitButton.disabled = true;
+    _customerFileButton.disabled = true;
+
+
+    let _customerSendForm = () => {
+      if (_customerSubmitButton.disabled !== true) {
+        _customerFinalMessage = `Добрый день!\nМеня зовут ${document.getElementById("_customerName").value}\n${document.getElementById("_customerMessage").value}`;
+      }
+    }
+
+    let formValidate = () => {
+      _customerSubmitButton.disabled =
+        [...document.querySelectorAll("._customer-form__input:required")].filter((element) => element.value === "" || element.value === 0).length !== 0 ? true : false;
+      _customerFileButton.disabled = _customerSubmitButton.disabled == true ? true : false;
+    }
+
+    document.querySelectorAll("._customer-form__input:required").forEach((element) => {
+      element.addEventListener("change", () => formValidate());
+      element.addEventListener("mouseout", () => formValidate());
+    });
+
+    let openWidget = () => {
+      _customerSendForm();
+      setTimeout(() => {
+        document.querySelector("#order_messages_attributes_0_text").value = _customerFinalMessage;
+        document.querySelector(".js-order-customer-phone-field") === null
+          ? (document.querySelector("#order_messages_attributes_0_text").value += "\n" + "Телефон: " + document.getElementById("_customerPhone").value)
+          : (document.querySelector(".js-order-customer-phone-field").value = document.getElementById("_customerPhone").value);
+        document.querySelector(".js-input-email-auth") === null
+          ? (document.querySelector("#order_messages_attributes_0_text").value += "\n" + "Почта: " + document.getElementById("_customerEmail").value)
+          : (document.querySelector(".js-input-email-auth").value = document.getElementById("_customerEmail").value);
+      }, 1000);
+    }
+    _customerSubmitButton.addEventListener("click", (event) => openWidget());
+
+    _customerFileButton.addEventListener("click", (e) => {
+      openWidget();
+      setTimeout(() => {
+        document.getElementById("order_").click();
+      }, 1000);
+    });
+  });
+</script>
